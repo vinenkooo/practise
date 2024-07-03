@@ -10,7 +10,7 @@ export default function AppHowToUse() {
     }
 
     return (
-        <div className='main-container'>
+        <div className='main-container third'>
             <div className='flex-row'>
                 <div className='purple-glossy' />
                 <div className='holo-simulator'>

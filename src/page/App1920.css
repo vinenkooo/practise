@@ -29,6 +29,53 @@
     background: #ffffff;
     overflow: hidden;
   }
+  
+  .main-container.header{
+    position: absolute;
+    width: 1920px;
+    height: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  
+    
+  /* .main-container.second{
+    position: absolute;
+    width: 1920px;
+    height: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  } */
+  
+    .main-container.second{
+    position: absolute;
+    width: 1920px;
+    height: 10836px;
+    margin: 0 auto;
+    top: 000px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .main-container.third{
+    position: absolute;
+    width: 1920px;
+    height: 4836px;
+    margin: 0 auto;
+    top: 5500px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .main-container.fourth{
+    position: absolute;
+    width: 1920px;
+    height: 2550px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 8300px;
+  }
   .rectangle {
     display: flex;
     align-items: center;
@@ -56,7 +103,7 @@
     z-index: 127;
   }
   .flex-row {
-    position: relative;
+    position: absolute;
     width: 2477.453px;
     height: 1928.662px;
     margin: -3.663px 0 0 -309px;
@@ -698,6 +745,7 @@
     height: 112.423px;
     margin: 200.001px 0 0 364px;
     z-index: 66;
+    top: 1860px;
   }
   .roundcube-purple-glossy {
     position: absolute;
@@ -747,6 +795,8 @@
     height: 149px;
     margin: 21.577px 0 0 239px;
     z-index: 61;
+    top: 1870px;
+    left: 35px;
   }
   .group-9 {
     position: absolute;
@@ -804,6 +854,7 @@
     height: 419px;
     margin: 37px 0 0 239px;
     z-index: 70;
+    top: 1820px;
   }
   .img-6 {
     position: absolute;
@@ -1352,6 +1403,7 @@
     background: #f9f9f9;
     z-index: 1;
     overflow: visible auto;
+    bottom: 0px;
   }
   .flex-row-e {
     position: relative;
@@ -1757,8 +1809,9 @@
   .image-2f {
     position: absolute;
     width: 100%;
-    height: 75.11%;
-    top: 7.49%;
+    height: 1300px;
+    top: 150px;
+    
     left: 0;
     background: url(../assets/images/images_1920/fce36a01-98c9-4fa7-bcf0-a1fec943856b.png)
       no-repeat center;
@@ -1787,6 +1840,7 @@
     position: relative;
     width: 1183px;
     height: 169px;
+    top: 200px;
     margin: 284px 0 0 428px;
     z-index: 188;
   }

@@ -11,7 +11,7 @@ export default function AppHeader() {
     }
 
     return (
-        <div className='main-container'>
+        <div className='main-container header'>
             <div className='flex-row-20'>
                 <div className='screenshoter-21'>
                     <div className='flex-column-bc'>

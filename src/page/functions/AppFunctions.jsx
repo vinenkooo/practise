@@ -12,7 +12,7 @@ export default function AppHeader() {
         setContent(type);
     }
     return (
-        <div className='main-container'>
+        <div className='main-container second'>
           <div className='flex-row-20'>
             <div className='arrow-down'></div>
             <div className='flex-row-31'>
