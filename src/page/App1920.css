@@ -1983,40 +1983,21 @@
 
   .image-3b {
     position: absolute;
-    width: 338px;
-    height: 294px;
-    top: 1459px;
+    width: 408px;
+    height: 364px;
+    top: 1439px;
     left: 428px;
+    background: url(../assets/images/images_1920/8620a2026ab203c3891c72dba6e07afb7213f87c.png) no-repeat center;
     background-size: cover;
     z-index: 192;
-    background-color: #ffffff;
-    border-radius: 10px; 
+    border-width: 0px;
   }
 
-  .image-3b:hover {
-    background-color: #7421B0;
-    color: #FFFFFF;
+  .image-3b.new-background {
+    background: url(../assets/images/images_1920/faa4b028-f62b-4edd-851a-3264d7da6751.png) no-repeat center;
+    background-size: cover;
   }
 
-  .image-cursor {
-    position: absolute;
-    top: 49px;
-    left: 38px;
-    z-index: 193;
-  }
-
-  .text-cursor {
-    position: absolute;
-    top: 160px;
-    left: 38px;
-    z-index: 193;
-    font-family: Rubik, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
-    text-align: left;
-    color: #131313;
-  }
 
   .span-instant {
     position: absolute;
@@ -2024,11 +2005,17 @@
     height: 364px;
     top: 1439px;
     left: 796px;
-    background: url(../assets/images/images_1920/ba9413f91c29cf4076c653fad2123503270f9747.png)
-      no-repeat center;
+    background: url(../assets/images/images_1920/ba9413f91c29cf4076c653fad2123503270f9747.png) no-repeat center;
     background-size: cover;
     z-index: 191;
+    border-width: 0px;
   }
+  
+  .span-instant.new-background {
+    background: url(../assets/images/images_1920/moment-violet.png) no-repeat center;
+    background-size: cover;
+  }
+
   .span-convenient {
     position: absolute;
     width: 408px;
@@ -2039,7 +2026,14 @@
       no-repeat center;
     background-size: cover;
     z-index: 190;
+    border-width: 0px;
   }
+
+  .span-convenient.new-background {
+    background: url(../assets/images/images_1920/udobniy.png) no-repeat center;
+    background-size: cover;
+  } 
+  
   .span-free {
     position: absolute;
     width: 408px;
@@ -2050,7 +2044,15 @@
       no-repeat center;
     background-size: cover;
     z-index: 189;
+    border-width: 0px;
   }
+
+
+  .span-free.new-background {
+    background: url(../assets/images/images_1920/button_besplatno.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .flex-row-a {
     position: absolute;
     width: 118.53%;

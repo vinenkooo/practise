@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
 import ButtonMini from '../button/ButtonMini'
+import ButtonMoment from '../button/ButtonMoment'
+import ButtonUdobniy from '../button/ButtonUdobniy'
+import ButtonBesplatno from '../button/ButtonBesplatno'
+
 import Cursor from '../../assets/images/images_1920/Cursor.png';
 
 
@@ -33,10 +37,10 @@ export default function AppHeader() {
                 <span className='span-screenshoter-3a'>Можно выделить весь экран, определенную область или активное окно<br /></span>
               </div>
             </div>
-            <ButtonMini className='image-3b'><img src={Cursor} className='image-cursor' /><h4 className='text-cursor'>Снимок и запись <br /> экрана в 1 клик</h4></ButtonMini>
-            <div className='span-instant' />
-            <div className='span-convenient' />
-            <div className='span-free' />
+            <ButtonMini className='image-3b'> </ButtonMini>
+            <ButtonMoment className='span-instant'> </ButtonMoment>
+            <ButtonUdobniy className='span-convenient'> </ButtonUdobniy>
+            <ButtonBesplatno className='span-free'> </ButtonBesplatno>
           </div>
           <div className='flex-row-a'>
             <div className='decorative-line-3d'>
