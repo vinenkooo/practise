@@ -1,0 +1,127 @@
+import React, { useState } from 'react';
+import '../../App768.css';
+import ButtonSave from '../../button/ButtonSave';
+
+// УДОЛИ ДУБЛИРУЮЩИЙ ХЭДЭРЭ
+export default function AppFunctions() {
+    const [content, setContent] = useState();
+
+    function handleClick(type){
+        console.log('button clicked', type);
+        setContent(type);
+    }
+
+    return (
+        <div className='main-container'>
+            <div className='flex-row'>
+                <div className='image'>
+                    <div className='flex-column'>
+                        <span className='together-screenshoter'>Вместе со Screenshoter можно в один клик сделать снимок или записать происходящее на экране ПК, чтобы поделиться<br />с кем угодно</span>
+                        <div className='rectangle'>
+                            <span className='download-free'>Скачать бесплатно</span>
+                        </div>
+                        <div className='fi-rr-arrow-down'>
+                            <div className='vector' />
+                        </div>
+                        <div className='meet-screenshots'>
+                            <span className='meet-screenshots-record'>Встречайте — скриншоты<br />и запись экрана</span>
+                            <span className='two-in-one'> 2 в 1</span>
+                        </div>                       
+                    </div>  
+                </div>
+                <div className='no-more-searching'>
+                    <span className='no-more-searching-3'>Больше не нужно искать две отдельные программы<br />для скриншотов и записи экрана.Screenshoter поможет сделать</span>
+                    <span className='empty'> </span>
+                    <span className='capture-record-share'>снимок экрана, записать видео<br />и поделиться</span>
+                    <span className='empty-4'> </span>
+                    <span className='no-more-searching-5'>им</span>
+                    <span className='empty-6'> </span>
+                    <span className='capture-record-share-7'>с кем угодно</span>
+                    <span className='empty-8'>. </span>
+                    <span className='no-more-searching-9'>Можно выделить весь экран, определенную область или активное окно<br /></span>
+                </div>       
+            </div>
+            <div className='flex-row-d-4e'>
+                <div className='capture-and-record-in-one-click' />
+                <div className='convenient-editor' />
+                <div className='free-and-no-registration' />
+                <div className='decorative-line-4f'>
+                    <div className='white-glossy-50' />
+                </div>
+                <div className='rectangle-51'>
+                    <span className='gif-52'>gif.</span>
+                </div>
+                <div className='rectangle-53'>
+                    <span className='gif-54'>gif.</span>
+                </div>
+            </div>
+            <div className='instant-link-55' />
+            <div className='flex-row-a'>
+                <span className='screen-record'>Запись экрана</span>
+                <div className='not-enough-screenshots'>
+                    <span className='highlight-area'>Недостаточно снимков? Запишите происходящее на экране<br />со своим голосом</span>
+                    <span className='empty-b'> </span>
+                    <span className='highlight-area-c'>или звуком системы. <br /><br /></span>
+                    <span className='press-two-mouse-buttons'>Достаточно нажать две кнопки мыши,</span>
+                    <span className='empty-d'> </span>
+                    <span className='highlight-area-e'>выделить необходимую<br /> область и начнется запись видео с экрана.Быстро<br />и без сложных настроек</span>
+                </div>  
+            </div>            
+            <div className='flex-row-f'>
+                <div className='purple-glossy' />
+                <div className='ellipse' />
+                <div className='rectangle-10'>
+                    <span className='gif'>gif.</span>
+                    <span className='gif-11'>gif.</span>
+                </div>
+            </div>            
+            <div className='flex-row-e'>
+                <span className='one-click-12'>В один клик</span>
+                <div className='remember-shortcuts'>
+                    <span className='remember-shortcuts-13'>Не нужно запоминать комбинации клавиш</span>
+                    <span className='remember-shortcuts-14'>на клавиатуре, чтобы сделать скриншот или начать записывать видео с экрана.<br /><br />Просто нажмите две кнопки мыши или настройте горячую кнопку на любую удобную клавишу</span>
+                </div>
+            </div>            
+            <div className='flex-row-eba'>
+                <div className='roundcube-white-glossy' />
+                <div className='ellipse-15'>
+                    <div className='rectangle-16'>
+                        <span className='gif-17'>gif.</span>
+                        <span className='gif-18'>gif.</span>
+                    </div>
+                </div>
+                <div className='rectangle-19'>
+                    <div className='store-files'>
+                        <span className='store-files-1a'>Файлы хранятся в течение 1 года</span>
+                        <span className='store-files-1b'>с момента<br />создания. Можно их удалять самостоятельно.<br />В истории программы доступны<br />последние 5 скриншотов</span>
+                    </div>
+                </div>
+            </div>
+            <div className='instant-link'>
+                <span className='instant-link-1c'>Мгновенная<br />ссылка</span>
+                <span className='instant-link-1d'>Мгновенное получение ссылки на снимок или видео. Вы только нажали Enter, а ссылка уже в буфере обмена.<br />Перейдя по ссылке, можно будет посмотреть ваш снимок<br />или записанное видео</span>
+            </div>
+            <div className='flex-row-ede'>
+                <div className='purple-glossy-1e' />
+                <div className='rectangle-1f' />
+                <div className='rectangle-20'>
+                    <span className='gif-21'>gif.</span>
+                    <span className='gif-22'>gif.</span>
+                </div>
+                <div className='decorative-line'>
+                    <div className='edit-tools'>
+                        <span className='edit-tools-23'>Более 5 инструментов для редактирования</span>
+                        <span className='edit-tools-24'>. Выделяете область и редактируете.<br /><br />Если неверно выбрали область — не беда, можно без проблем её передвинуть и/или изменить размер, не удаляя то,<br />что уже нарисовано!</span>
+                    </div>
+                    <span className='image-editor'>И редактор<br />снимков</span>
+                </div>
+                <div className='editor-info'>
+                    <ButtonSave className='download-free-25'><span >Скачать бесплатно</span></ButtonSave>
+                    {/* <div className='download-free-25' /> */}
+                </div>
+            </div>
+
+        </div> 
+    );
+}
+
