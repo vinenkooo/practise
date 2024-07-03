@@ -2682,8 +2682,16 @@
     background: url(../assets/images/images_1920/d5b6824a7bf1c0c23167d32dd87cda577685fdf2.png)
       no-repeat center;
     background-size: cover;
-    z-index: 130;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .img-1b.new-background {
+    background: url(../assets/images/images_1920/vibirayte_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .pic-1f {
     position: absolute;
     width: 408px;
@@ -2693,8 +2701,15 @@
     background: url(../assets/images/images_1920/0ccc5c7b62f5751b85a039eb05857e650f0ffa9a.png)
       no-repeat center;
     background-size: cover;
-    z-index: 131;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-1f.new-background {
+    background: url(../assets/images/images_1920/ispolzuite_violet.png) no-repeat center;
+    background-size: cover;
+  } 
 
   .pic-21 {
     position: absolute;
@@ -2705,8 +2720,18 @@
     background: url(../assets/images/images_1920/40401bf644a7185094a290aaf13b822cca70cfac.png)
       no-repeat center;
     background-size: cover;
-    z-index: 132;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-21.new-background {
+    background: url(../assets/images/images_1920/ostavlyate_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
+
+
   .img-1c {
     position: absolute;
     width: 408px;
@@ -2716,6 +2741,14 @@
     background: url(../assets/images/images_1920/0a31a6ca8d7791f8bc5ceee83cb3008a632c4824.png)
       no-repeat center;
     background-size: cover;
-    z-index: 133;
+    z-index: 999;
+    border-width: 0px;
   }
-  
+
+
+  .img-1c.new-background {
+    background: url(../assets/images/images_1920/razmivayte_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
+

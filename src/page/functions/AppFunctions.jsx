@@ -5,8 +5,11 @@ import ButtonMini from '../button/ButtonMini'
 import ButtonMoment from '../button/ButtonMoment'
 import ButtonUdobniy from '../button/ButtonUdobniy'
 import ButtonBesplatno from '../button/ButtonBesplatno'
+import ButtonVibirayte from '../button/ButtonVibirayte'
+import ButtonIspolzuite from '../button/ButtonIspolzuite'
+import ButtonOstavlyate from '../button/ButtonOstavlyate'
+import ButtonRazmivayte from '../button/ButtonRazmivayte'
 
-import Cursor from '../../assets/images/images_1920/Cursor.png';
 
 
 export default function AppHeader() {
@@ -110,10 +113,10 @@ export default function AppHeader() {
               </div>
             </div>
             <div className='pic-1e' />
-            <div className='img-1b' />
-            <div className='pic-1f'></div>
-            <div className='pic-21' />
-            <div className='img-1c' />
+            <ButtonVibirayte className='img-1b'></ButtonVibirayte>
+            <ButtonIspolzuite className='pic-1f'></ButtonIspolzuite>
+            <ButtonOstavlyate className='pic-21' />
+            <ButtonRazmivayte className='img-1c' />
           </div>
           <ButtonSave className='rectangle' onClick={() => handleClick('saved')}><span className='download-free'>Скачать бесплатно</span></ButtonSave>   
         </div>    
