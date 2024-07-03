@@ -29,6 +29,53 @@
     background: #ffffff;
     overflow: hidden;
   }
+  
+  .main-container.header{
+    position: absolute;
+    width: 1920px;
+    height: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  
+    
+  /* .main-container.second{
+    position: absolute;
+    width: 1920px;
+    height: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  } */
+  
+    .main-container.second{
+    position: absolute;
+    width: 1920px;
+    height: 10836px;
+    margin: 0 auto;
+    top: 000px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .main-container.third{
+    position: absolute;
+    width: 1920px;
+    height: 4836px;
+    margin: 0 auto;
+    top: 5500px;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .main-container.fourth{
+    position: absolute;
+    width: 1920px;
+    height: 2550px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 8300px;
+  }
   .rectangle {
     display: flex;
     align-items: center;
@@ -56,7 +103,7 @@
     z-index: 127;
   }
   .flex-row {
-    position: relative;
+    position: absolute;
     width: 2477.453px;
     height: 1928.662px;
     margin: -3.663px 0 0 -309px;
@@ -698,6 +745,7 @@
     height: 112.423px;
     margin: 200.001px 0 0 364px;
     z-index: 66;
+    top: 1860px;
   }
   .roundcube-purple-glossy {
     position: absolute;
@@ -747,6 +795,8 @@
     height: 149px;
     margin: 21.577px 0 0 239px;
     z-index: 61;
+    top: 1870px;
+    left: 35px;
   }
   .group-9 {
     position: absolute;
@@ -804,6 +854,7 @@
     height: 419px;
     margin: 37px 0 0 239px;
     z-index: 70;
+    top: 1820px;
   }
   .img-6 {
     position: absolute;
@@ -814,8 +865,16 @@
     background: url(../assets/images/images_1920/0bea2f53cc2c9c765cadf1c2c78349c5b4f1fbe8.png)
       no-repeat center;
     background-size: cover;
-    z-index: 67;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .img-6.new-background {
+    background: url(../assets/images/images_1920/bez_reg.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .pic-8 {
     position: absolute;
     width: 408px;
@@ -825,8 +884,15 @@
     background: url(../assets/images/images_1920/3badacb2bb0a6604400bf783db43491c4bc57b10.png)
       no-repeat center;
     background-size: cover;
-    z-index: 68;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-8.new-background {
+    background: url(../assets/images/images_1920/bespl.png) no-repeat center;
+    background-size: cover;
+  } 
   .pic-9 {
     position: absolute;
     width: 408px;
@@ -836,8 +902,15 @@
     background: url(../assets/images/images_1920/335779f041ce0bb357fdba25c107fe02e83090c5.png)
       no-repeat center;
     background-size: cover;
-    z-index: 69;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-9.new-background {
+    background: url(../assets/images/images_1920/neogr.png) no-repeat center;
+    background-size: cover;
+  } 
   .img-7 {
     position: absolute;
     width: 408px;
@@ -847,8 +920,15 @@
     background: url(../assets/images/images_1920/5152dac819d04c8a21f9ef04ebf7b7162665d069.png)
       no-repeat center;
     background-size: cover;
-    z-index: 70;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .img-7.new-background {
+    background: url(../assets/images/images_1920/fayli.png) no-repeat center;
+    background-size: cover;
+  } 
   .flex-row-ff {
     position: relative;
     width: 2472.366px;
@@ -1352,6 +1432,7 @@
     background: #f9f9f9;
     z-index: 1;
     overflow: visible auto;
+    bottom: 0px;
   }
   .flex-row-e {
     position: relative;
@@ -1757,8 +1838,9 @@
   .image-2f {
     position: absolute;
     width: 100%;
-    height: 75.11%;
-    top: 7.49%;
+    height: 1300px;
+    top: 150px;
+    
     left: 0;
     background: url(../assets/images/images_1920/fce36a01-98c9-4fa7-bcf0-a1fec943856b.png)
       no-repeat center;
@@ -1787,6 +1869,7 @@
     position: relative;
     width: 1183px;
     height: 169px;
+    top: 200px;
     margin: 284px 0 0 428px;
     z-index: 188;
   }
@@ -1929,40 +2012,21 @@
 
   .image-3b {
     position: absolute;
-    width: 338px;
-    height: 294px;
-    top: 1459px;
+    width: 408px;
+    height: 364px;
+    top: 1439px;
     left: 428px;
+    background: url(../assets/images/images_1920/8620a2026ab203c3891c72dba6e07afb7213f87c.png) no-repeat center;
     background-size: cover;
     z-index: 192;
-    background-color: #ffffff;
-    border-radius: 10px; 
+    border-width: 0px;
   }
 
-  .image-3b:hover {
-    background-color: #7421B0;
-    color: #FFFFFF;
+  .image-3b.new-background {
+    background: url(../assets/images/images_1920/faa4b028-f62b-4edd-851a-3264d7da6751.png) no-repeat center;
+    background-size: cover;
   }
 
-  .image-cursor {
-    position: absolute;
-    top: 49px;
-    left: 38px;
-    z-index: 193;
-  }
-
-  .text-cursor {
-    position: absolute;
-    top: 160px;
-    left: 38px;
-    z-index: 193;
-    font-family: Rubik, var(--default-font-family);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
-    text-align: left;
-    color: #131313;
-  }
 
   .span-instant {
     position: absolute;
@@ -1970,11 +2034,17 @@
     height: 364px;
     top: 1439px;
     left: 796px;
-    background: url(../assets/images/images_1920/ba9413f91c29cf4076c653fad2123503270f9747.png)
-      no-repeat center;
+    background: url(../assets/images/images_1920/ba9413f91c29cf4076c653fad2123503270f9747.png) no-repeat center;
     background-size: cover;
     z-index: 191;
+    border-width: 0px;
   }
+  
+  .span-instant.new-background {
+    background: url(../assets/images/images_1920/moment-violet.png) no-repeat center;
+    background-size: cover;
+  }
+
   .span-convenient {
     position: absolute;
     width: 408px;
@@ -1985,7 +2055,14 @@
       no-repeat center;
     background-size: cover;
     z-index: 190;
+    border-width: 0px;
   }
+
+  .span-convenient.new-background {
+    background: url(../assets/images/images_1920/udobniy.png) no-repeat center;
+    background-size: cover;
+  } 
+  
   .span-free {
     position: absolute;
     width: 408px;
@@ -1996,7 +2073,15 @@
       no-repeat center;
     background-size: cover;
     z-index: 189;
+    border-width: 0px;
   }
+
+
+  .span-free.new-background {
+    background: url(../assets/images/images_1920/button_besplatno.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .flex-row-a {
     position: absolute;
     width: 118.53%;
@@ -2626,8 +2711,16 @@
     background: url(../assets/images/images_1920/d5b6824a7bf1c0c23167d32dd87cda577685fdf2.png)
       no-repeat center;
     background-size: cover;
-    z-index: 130;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .img-1b.new-background {
+    background: url(../assets/images/images_1920/vibirayte_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .pic-1f {
     position: absolute;
     width: 408px;
@@ -2637,8 +2730,15 @@
     background: url(../assets/images/images_1920/0ccc5c7b62f5751b85a039eb05857e650f0ffa9a.png)
       no-repeat center;
     background-size: cover;
-    z-index: 131;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-1f.new-background {
+    background: url(../assets/images/images_1920/ispolzuite_violet.png) no-repeat center;
+    background-size: cover;
+  } 
 
   .pic-21 {
     position: absolute;
@@ -2649,8 +2749,18 @@
     background: url(../assets/images/images_1920/40401bf644a7185094a290aaf13b822cca70cfac.png)
       no-repeat center;
     background-size: cover;
-    z-index: 132;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-21.new-background {
+    background: url(../assets/images/images_1920/ostavlyate_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
+
+
   .img-1c {
     position: absolute;
     width: 408px;
@@ -2660,6 +2770,14 @@
     background: url(../assets/images/images_1920/0a31a6ca8d7791f8bc5ceee83cb3008a632c4824.png)
       no-repeat center;
     background-size: cover;
-    z-index: 133;
+    z-index: 999;
+    border-width: 0px;
   }
-  
+
+
+  .img-1c.new-background {
+    background: url(../assets/images/images_1920/razmivayte_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
+

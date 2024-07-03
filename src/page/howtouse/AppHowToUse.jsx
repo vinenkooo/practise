@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
+import ButtonBezReg from '../button/ButtonBezReg';
+import ButtonBespl from '../button/ButtonBespl';
+import ButtonNeogr from '../button/ButtonNeogr';
+import ButtonFayli from '../button/ButtonFayli';
 
 export default function AppHowToUse() {
     const [content, setContent] = useState();
@@ -10,7 +14,7 @@ export default function AppHowToUse() {
     }
 
     return (
-        <div className='main-container'>
+        <div className='main-container third'>
             <div className='flex-row'>
                 <div className='purple-glossy' />
                 <div className='holo-simulator'>
@@ -90,10 +94,10 @@ export default function AppHowToUse() {
                 <span className='text-20'>Согласовывайте рабочие вопросы, показывайте интересные вещи и обсуждайте любые темы. Делитесь комментариями с помощью бесплатного инструмента 2 в 1<br /></span>
             </div>
             <div className='flex-row-bd'>
-                <div className='img-6' />
-                <div className='pic-8' />
-                <div className='pic-9' />
-                <div className='img-7' />
+                <ButtonBezReg className='img-6' />
+                <ButtonBespl className='pic-8' />
+                <ButtonNeogr className='pic-9' />
+                <ButtonFayli className='img-7' />
             </div>
         </div>
     

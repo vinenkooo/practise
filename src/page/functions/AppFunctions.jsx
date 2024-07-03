@@ -2,7 +2,14 @@ import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
 import ButtonMini from '../button/ButtonMini'
-import Cursor from '../../assets/images/images_1920/Cursor.png';
+import ButtonMoment from '../button/ButtonMoment'
+import ButtonUdobniy from '../button/ButtonUdobniy'
+import ButtonBesplatno from '../button/ButtonBesplatno'
+import ButtonVibirayte from '../button/ButtonVibirayte'
+import ButtonIspolzuite from '../button/ButtonIspolzuite'
+import ButtonOstavlyate from '../button/ButtonOstavlyate'
+import ButtonRazmivayte from '../button/ButtonRazmivayte'
+
 
 
 export default function AppHeader() {
@@ -12,7 +19,7 @@ export default function AppHeader() {
         setContent(type);
     }
     return (
-        <div className='main-container'>
+        <div className='main-container second'>
           <div className='flex-row-20'>
             <div className='arrow-down'></div>
             <div className='flex-row-31'>
@@ -33,10 +40,10 @@ export default function AppHeader() {
                 <span className='span-screenshoter-3a'>Можно выделить весь экран, определенную область или активное окно<br /></span>
               </div>
             </div>
-            <ButtonMini className='image-3b'><img src={Cursor} className='image-cursor' /><h4 className='text-cursor'>Снимок и запись <br /> экрана в 1 клик</h4></ButtonMini>
-            <div className='span-instant' />
-            <div className='span-convenient' />
-            <div className='span-free' />
+            <ButtonMini className='image-3b'> </ButtonMini>
+            <ButtonMoment className='span-instant'> </ButtonMoment>
+            <ButtonUdobniy className='span-convenient'> </ButtonUdobniy>
+            <ButtonBesplatno className='span-free'> </ButtonBesplatno>
           </div>
           <div className='flex-row-a'>
             <div className='decorative-line-3d'>
@@ -106,10 +113,10 @@ export default function AppHeader() {
               </div>
             </div>
             <div className='pic-1e' />
-            <div className='img-1b' />
-            <div className='pic-1f'></div>
-            <div className='pic-21' />
-            <div className='img-1c' />
+            <ButtonVibirayte className='img-1b'></ButtonVibirayte>
+            <ButtonIspolzuite className='pic-1f'></ButtonIspolzuite>
+            <ButtonOstavlyate className='pic-21' />
+            <ButtonRazmivayte className='img-1c' />
           </div>
           <ButtonSave className='rectangle' onClick={() => handleClick('saved')}><span className='download-free'>Скачать бесплатно</span></ButtonSave>   
         </div>    

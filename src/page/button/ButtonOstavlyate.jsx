@@ -1,9 +1,9 @@
-// ButtonMini.jsx
+// ButtonOstavlyate.jsx
 import React from 'react';
 
 export default function Button({ className, children }) {
   function handleClick() {
-    const element = document.querySelector('.image-3b');
+    const element = document.querySelector('.pic-21');
     if (element) {
       element.classList.toggle('new-background');
     }
