@@ -29,6 +29,50 @@
     background: #ffffff;
     overflow: hidden;
   }
+
+  .main-container.header {
+    position: absolute;
+    width: 768px;
+    height: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 0px;
+  }
+
+  .main-container.second {
+    position: absolute;
+    width: 768px;
+    height: 4550px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 800px;
+
+  }
+
+  .main-container.third {
+    position: absolute;
+    width: 768px;
+    height: 3600px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 5350px;
+
+  }  
+
+  .main-container.fourth {
+    position: absolute;
+    width: 768px;
+    height: 2210px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 8950px;
+
+  }
+
   .flex-row-ec {
     display: flex;
     align-items: center;
@@ -352,9 +396,10 @@
     text-align: left;
   }
   .flex-row-a {
-    position: relative;
+    position: absolute;
     width: 678px;
     height: 156px;
+    top: -50px;
     margin: 1225px 0 0 45px;
     z-index: 168;
   }
@@ -445,10 +490,10 @@
     text-align: left;
   }
   .flex-row-f {
-    position: relative;
+    position: absolute;
     width: 746px;
     height: 478px;
-    top: 70px;
+    top: 1400px;
     margin: 60px 0 0 104px;
     z-index: 152;
   }
@@ -525,7 +570,7 @@
     position: relative;
     width: 678px;
     height: 133px;
-    top:70px;
+    top:1950px;
     margin: 26px 0 0 45px;
     z-index: 148;
   }
@@ -583,13 +628,13 @@
     height: 606px;
     margin: 60px 0 0 -68px;
     z-index: 143;
-    top: 70px;
+    top: 1370px;
   }
   .roundcube-white-glossy {
     position: absolute;
     width: 122px;
     height: 140px;
-    top: 0;
+    top: 520px;
     left: 134px;
     background: url(../assets/images/images_768/d8d72b7d3145a3d25660a6581b1064bb4288e87a.png)
       no-repeat center;
@@ -600,7 +645,7 @@
     position: absolute;
     width: 791px;
     height: 482px;
-    top: 48px;
+    top: 550px;
     left: 0;
     background: url(../assets/images/images_768/4462f27c-a17f-432f-b9f7-b30dd7c09fa2.png)
       no-repeat center;
@@ -657,7 +702,7 @@
     position: absolute;
     width: 412px;
     height: 156px;
-    top: 450px;
+    top: 950px;
     left: 243px;
     background: rgba(196, 196, 196, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.15);
@@ -698,12 +743,12 @@
     text-align: left;
   }
   .instant-link {
-    position: relative;
+    position: absolute;
     width: 678px;
     height: 100px;
     margin: 60px 0 0 45px;
     z-index: 133;
-    top: 70px;
+    top: 2700px;
   }
   .instant-link-1c {
     display: flex;
@@ -747,6 +792,7 @@
     height: 1561px;
     margin: 60px 0 0 -773px;
     z-index: 126;
+    top: 2000px;
   }
   .purple-glossy-1e {
     position: absolute;
@@ -1601,8 +1647,16 @@
     background: url(../assets/images/images_768/e9b62c2fa38a6f30e355b92ff364c95086d970cb.png)
       no-repeat center;
     background-size: cover;
-    z-index: 63;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .bez-registracii.new-background {
+    background: url(../assets/images/images_768/bez_reg.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .besplatno {
     position: absolute;
     width: 394px;
@@ -1612,8 +1666,16 @@
     background: url(../assets/images/images_768/fbd0922d485b9cbbad3fe09457fe8eecb402ecca.png)
       no-repeat center;
     background-size: cover;
-    z-index: 62;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .besplatno.new-background {
+    background: url(../assets/images/images_768/bespl.png) no-repeat center;
+    background-size: cover;
+  }
+  
   .neogranichennoe-kolichestvo {
     position: absolute;
     width: 394px;
@@ -1623,8 +1685,16 @@
     background: url(../assets/images/images_768/2685e820c0171d51b78ea843a3f64851d8a77332.png)
       no-repeat center;
     background-size: cover;
-    z-index: 61;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .neogranichennoe-kolichestvo.new-background {
+    background: url(../assets/images/images_768/neogr.png) no-repeat center;
+    background-size: cover;
+  }
+  
   .fayly-hranyatsya {
     position: absolute;
     width: 394px;
@@ -1634,8 +1704,16 @@
     background: url(../assets/images/images_768/256cd099aab4f7a4da86cf9bcb540bad38f3606a.png)
       no-repeat center;
     background-size: cover;
-    z-index: 60;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .fayly-hranyatsya.new-background {
+    background: url(../assets/images/images_768/fayli.png) no-repeat center;
+    background-size: cover;
+  }
+  
   .flex-row-37 {
     position: relative;
     width: 2472.366px;
@@ -2262,7 +2340,7 @@
     position: absolute;
     width: 150.65%;
     height: 10.22%;
-    top: 7.15%;
+    top: 0px;
     left: -8.85%;
     z-index: 176;
   }
@@ -2275,8 +2353,16 @@
     background: url(../assets/images/images_768/8620a2026ab203c3891c72dba6e07afb7213f87c.png)
       no-repeat center;
     background-size: cover;
-    z-index: 173;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .capture-and-record-in-one-click.new-background {
+    background: url(../assets/images/images_768/snimok_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .convenient-editor {
     position: absolute;
     width: 394px;
@@ -2286,8 +2372,15 @@
     background: url(../assets/images/images_768/d79f4416daaf57276dfba41abcd0ea11df60a532.png)
       no-repeat center;
     background-size: cover;
-    z-index: 175;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .convenient-editor.new-background {
+    background: url(../assets/images/images_768/udobniy.png) no-repeat center;
+    background-size: cover;
+  } 
   .free-and-no-registration {
     position: absolute;
     width: 394px;
@@ -2297,13 +2390,20 @@
     background: url(../assets/images/images_768/4782f968350f520a5fb969a91679a6c6dec6da8f.png)
       no-repeat center;
     background-size: cover;
-    z-index: 176;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .free-and-no-registration.new-background {
+    background: url(../assets/images/images_768/button_besplatno.png) no-repeat center;
+    background-size: cover;
+  } 
   .decorative-line-4f {
     position: absolute;
     width: 66.38%;
     height: 25.46%;
-    top: 54.01%;
+    top: 650px;
     left: 5.88%;
     background: url(../assets/images/images_768/8f31a615-be0d-4456-9192-0d1e85005dd2.png)
       no-repeat center;
@@ -2324,7 +2424,7 @@
     position: absolute;
     width: 459px;
     height: 330px;
-    top: 768px;
+    top: 800px;
     left: 17px;
     background: url(../assets/images/images_768/9713f2ad-bb23-42e1-94a1-840ffe976c7a.png)
       no-repeat center;
@@ -2354,7 +2454,7 @@
     position: absolute;
     width: 561px;
     height: 315px;
-    top: 820px;
+    top: 850px;
     left: 172px;
     background: #ffffff;
     z-index: 162;
@@ -2383,11 +2483,17 @@
     position: absolute;
     width: 394px;
     height: 364px;
-    top: 794px;
+    top: 0px;
     left: 360px;
     background: url(../assets/images/images_768/56f14093e5105536b73e6c5147fd7fdba3c3af85.png)
       no-repeat center;
     background-size: cover;
-    z-index: 174;
+    z-index: 999;
+    border-width: 0px;
   }
-  
+
+
+  .instant-link-55.new-background {
+    background: url(../assets/images/images_768/moment-violet.png) no-repeat center;
+    background-size: cover;
+  } 

@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import '../../App768.css';
 import ButtonSave from '../../button/ButtonSave';
+import ButtonBezReg from '../../button/ButtonBezReg';
+import ButtonBespl from '../../button/ButtonBespl';
+import ButtonNeogr from '../../button/ButtonNeogr';
+import ButtonFayli from '../../button/ButtonFayli';
 
 export default function AppHowToUse() {
     const [content, setContent] = useState();
@@ -10,7 +14,7 @@ export default function AppHowToUse() {
         setContent(type);
     }
     return (
-        <div className='main-container'>
+        <div className='main-container third'>
             <div className='flex-row-ad'>
                 <div className='color-purple-glossy' />
                 <div className='holo-simulator'>
@@ -80,10 +84,10 @@ export default function AppHowToUse() {
                 <span className='soglasovyvayte-rabochie-voprosy'>Согласовывайте рабочие вопросы, показывайте интересные вещи и обсуждайте любые темы. Делитесь комментариями с помощью бесплатного<br />инструмента 2 в 1<br /></span>
             </div>
             <div className='flex-row-dc'>
-                <div className='bez-registracii' />
-                <div className='besplatno' />
-                <div className='neogranichennoe-kolichestvo' />
-                <div className='fayly-hranyatsya' />
+                <ButtonBezReg className='bez-registracii' />
+                <ButtonBespl className='besplatno' />
+                <ButtonNeogr className='neogranichennoe-kolichestvo' />
+                <ButtonFayli className='fayly-hranyatsya' />
             </div>
         </div>        
     );

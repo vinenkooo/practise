@@ -11,7 +11,7 @@ export default function AppFAQ() {
     }
 
     return (
-      <div className='main-container'>
+      <div className='main-container fourth'>
         <div className='flex-row-37'>
           <div className='holosimulator'>
             <span className='faq'>FAQ</span>
