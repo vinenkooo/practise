@@ -865,8 +865,16 @@
     background: url(../assets/images/images_1920/0bea2f53cc2c9c765cadf1c2c78349c5b4f1fbe8.png)
       no-repeat center;
     background-size: cover;
-    z-index: 67;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .img-6.new-background {
+    background: url(../assets/images/images_1920/bez_reg.png) no-repeat center;
+    background-size: cover;
+  } 
+
   .pic-8 {
     position: absolute;
     width: 408px;
@@ -876,8 +884,15 @@
     background: url(../assets/images/images_1920/3badacb2bb0a6604400bf783db43491c4bc57b10.png)
       no-repeat center;
     background-size: cover;
-    z-index: 68;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-8.new-background {
+    background: url(../assets/images/images_1920/bespl.png) no-repeat center;
+    background-size: cover;
+  } 
   .pic-9 {
     position: absolute;
     width: 408px;
@@ -887,8 +902,15 @@
     background: url(../assets/images/images_1920/335779f041ce0bb357fdba25c107fe02e83090c5.png)
       no-repeat center;
     background-size: cover;
-    z-index: 69;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .pic-9.new-background {
+    background: url(../assets/images/images_1920/neogr.png) no-repeat center;
+    background-size: cover;
+  } 
   .img-7 {
     position: absolute;
     width: 408px;
@@ -898,8 +920,15 @@
     background: url(../assets/images/images_1920/5152dac819d04c8a21f9ef04ebf7b7162665d069.png)
       no-repeat center;
     background-size: cover;
-    z-index: 70;
+    z-index: 999;
+    border-width: 0px;
   }
+
+
+  .img-7.new-background {
+    background: url(../assets/images/images_1920/fayli.png) no-repeat center;
+    background-size: cover;
+  } 
   .flex-row-ff {
     position: relative;
     width: 2472.366px;
