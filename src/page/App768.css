@@ -644,20 +644,21 @@
   .ellipse-15 {
     position: absolute;
     width: 791px;
-    height: 482px;
-    top: 550px;
-    left: 0;
+    height: 582px;
+    top: 560px;
+    left: 20px;
     background: url(../assets/images/images_768/4462f27c-a17f-432f-b9f7-b30dd7c09fa2.png)
       no-repeat center;
     background-size: cover;
     z-index: 136;
-    backdrop-filter: blur(20px);
+    backdrop-filter: none ;
   }
   .rectangle-16 {
     position: relative;
     width: 561px;
     height: 315px;
     margin: 108px 0 0 172px;
+    top: 40px;
     background: #ffffff;
     z-index: 138;
     border-radius: 10px;
