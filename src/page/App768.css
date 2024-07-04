@@ -511,14 +511,14 @@
   .ellipse {
     position: absolute;
     width: 638px;
-    height: 466px;
+    height: 536px;
     top: 12px;
     left: 108px;
     background: url(../assets/images/images_768/aba9ba9d-e867-4cc9-93b8-650e3cf9a7f3.png)
       no-repeat center;
     background-size: cover;
     z-index: 150;
-    backdrop-filter: blur(20px);
+    backdrop-filter: none ;
   }
   .rectangle-10 {
     position: absolute;

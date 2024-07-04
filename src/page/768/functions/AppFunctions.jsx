@@ -76,7 +76,7 @@ export default function AppFunctions() {
                 </div>  
             </div>            
             <div className='flex-row-f'>
-                <div className='purple-glossy' />
+                {/* <div className='purple-glossy' /> */}
                 <div className='ellipse' />
                 <div className='rectangle-10'>
                     <span className='gif'>gif.</span>
