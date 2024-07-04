@@ -1731,7 +1731,7 @@
     background: url(../assets/images/images_768/b53a423a-5031-4236-bedf-2476353cf6e8.png)
       no-repeat center;
     background-size: 100% 100%;
-    z-index: 26;
+    z-index: 1;
     backdrop-filter: blur(20px);
   }
   .faq {
@@ -2128,25 +2128,25 @@
   }
   .purple-glossy-41 {
     position: absolute;
-    width: 6.76%;
-    height: 11.73%;
+    width: 192.859px;
+    height: 192.859px;
     top: 18.76%;
-    left: 9.46%;
+    left: -4.46%;
     background: url(../assets/images/images_768/869bdea3-3d4a-488c-b880-12c29b3a623d.png)
       no-repeat center;
-    background-size: 100% 100%;
-    z-index: 50;
+      background-size: cover;
+      z-index: 27;    
   }
   .white-glossy-42 {
     position: absolute;
     width: 98.109px;
     height: 98.109px;
-    top: 662px;
-    left: 935px;
+    top: 590px;
+    left: 670px;
     background: url(../assets/images/images_768/8eb76e87-1d38-478d-b107-7c53824e642a.png)
       no-repeat center;
-    background-size: cover;
-    z-index: 28;
+      background-size: cover;
+      z-index: 27;
   }
   .decorative-line-43 {
     position: absolute;
