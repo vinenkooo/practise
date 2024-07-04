@@ -66,7 +66,7 @@ export default function CarouselFAQ() {
           expanded={expanded.includes('panel1')} 
           onChange={handleChange('panel1')} 
           className={`custom-accordion ${expanded.includes('panel1') ? 'open' : ''}`}
-          sx={{ borderRadius: '8px' }} // Apply borderRadius directly
+          sx={{ borderRadius: '8px' , background: '#C4C4C41A'          }} // Apply borderRadius directly
         >
             <AccordionSummary 
               expandIcon={expanded.includes('panel1') ? <CloseIcon style={iconStyle1} /> : <AddIcon style={iconStyle1}/>} 
@@ -91,7 +91,7 @@ export default function CarouselFAQ() {
           expanded={expanded.includes('panel2')} 
           onChange={handleChange('panel2')}
           className={`custom-accordion ${expanded.includes('panel2') ? 'open' : ''}`}
-          sx={{ borderRadius: '8px' }} // Apply borderRadius directly
+          sx={{ borderRadius: '8px', background: '#C4C4C41A' }} // Apply borderRadius directly
         >
             <AccordionSummary 
               expandIcon={expanded.includes('panel2') ? <CloseIcon style={iconStyle2} /> : <AddIcon style={iconStyle2}/>} 
@@ -114,7 +114,7 @@ export default function CarouselFAQ() {
           expanded={expanded.includes('panel3')} 
           onChange={handleChange('panel3')}
           className={`custom-accordion ${expanded.includes('panel3') ? 'open' : ''}`}
-          sx={{ borderRadius: '8px' }} // Apply borderRadius directly
+          sx={{ borderRadius: '8px', background: '#C4C4C41A' }} // Apply borderRadius directly
         >
             <AccordionSummary 
               expandIcon={expanded.includes('panel3') ? <CloseIcon style={iconStyle3} /> : <AddIcon style={iconStyle3}/>} 
@@ -137,7 +137,7 @@ export default function CarouselFAQ() {
           expanded={expanded.includes('panel4')} 
           onChange={handleChange('panel4')}
           className={`custom-accordion ${expanded.includes('panel4') ? 'open' : ''}`}
-          sx={{ borderRadius: '8px' }} // Apply borderRadius directly
+          sx={{ borderRadius: '8px', background: '#C4C4C41A' }} // Apply borderRadius directly
         >
             <AccordionSummary 
               expandIcon={expanded.includes('panel4') ? <CloseIcon style={iconStyle4} /> : <AddIcon style={iconStyle4}/>} 
@@ -160,7 +160,7 @@ export default function CarouselFAQ() {
           expanded={expanded.includes('panel5')} 
           onChange={handleChange('panel5')}
           className={`custom-accordion ${expanded.includes('panel5') ? 'open' : ''}`}
-          sx={{ borderRadius: '8px' }} // Apply borderRadius directly
+          sx={{ borderRadius: '8px', background: '#C4C4C41A' }} // Apply borderRadius directly
         >
             <AccordionSummary 
               expandIcon={expanded.includes('panel5') ? <CloseIcon style={iconStyle5} /> : <AddIcon style={iconStyle5}/>} 
