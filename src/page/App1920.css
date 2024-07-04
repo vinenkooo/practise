@@ -1848,7 +1848,8 @@
     position: relative;
     width: 39px;
     height: 24px;
-    z-index: 218;
+    top: -10px;
+    z-index: 999;
   }
   .ru {
     display: flex;

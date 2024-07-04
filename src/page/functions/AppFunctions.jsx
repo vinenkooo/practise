@@ -12,7 +12,7 @@ import ButtonRazmivayte from '../button/ButtonRazmivayte'
 
 
 
-export default function AppHeader() {
+export default function AppFunctions() {
     const [content, setContent] = useState();
     function handleClick(type){
         console.log('button clicked', type);
@@ -88,7 +88,7 @@ export default function AppHeader() {
               <div className='box-8'>
                 <div className='wrapper-b'>
                   <span className='text-5d'>Файлы хранятся в течение 1 года</span>
-                  <span className='text-5e'>с момента<br />создания. Можно их удалять самостоятельно.<br />В истории программы доступны<br />последние 5 скриншотов</span>
+                  <span className='text-5e'> с момента<br />создания. Можно их удалять самостоятельно.<br />В истории программы доступны<br />последние 5 скриншотов</span>
                 </div>
               </div>
             </div>

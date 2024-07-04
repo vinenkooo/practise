@@ -1768,11 +1768,35 @@
     font-size: 0px;
     z-index: 54;
   }
+
+  .custom-accordion {
+    position: absolute;
+    width: 678px;
+    height: 132px; /* initial height */
+    top: 50px;
+    left: 45px;
+    z-index: 998;
+    overflow: hidden;
+    transition: height 0.3s ease; /* transition for height */
+    border-radius: 8px; /* Round all corners */
+    padding: 10px;
+
+}
+
+.custom-accordion.open {
+    height: 258px; /* expanded height */
+    border-radius: 8px; /* Ensure this is also applied when open */
+}
+
+.custom-accordion-summary, .custom-accordion-details {
+    border-radius: inherit; /* Inherit the border radius from the parent */
+}
+
   .platnaya-li-programma {
     display: block;
     position: relative;
     height: 32px;
-    margin: 0 0 0 0;
+    margin: 27px 0 0 0;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
     font-size: 20px;
@@ -1789,7 +1813,26 @@
     position: relative;
     width: 398px;
     height: 88px;
-    margin: 20px 0 0 0;
+    top: 70px;
+    right: -7px;
+    color: #818181;
+    font-family: Rubik, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    z-index: 53;
+  }
+
+  .loren {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 398px;
+    height: 88px;
+    top: 50px;
+    right: -105px;
     color: #818181;
     font-family: Rubik, var(--default-font-family);
     font-size: 14px;
@@ -1816,8 +1859,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 11.97%;
-    top: 20.51%;
-    left: 6.78%;
+    top: 30px;
+    left: -80px;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
     font-size: 24px;
@@ -1869,7 +1912,7 @@
     justify-content: flex-start;
     position: absolute;
     height: 24.24%;
-    top: 36.36%;
+    top: 40px;
     left: 18.44%;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
@@ -1886,8 +1929,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 21.21%;
-    top: 37.88%;
-    left: 6.78%;
+    top: 40px;
+    left: 39px;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
     font-size: 24px;
@@ -1915,8 +1958,8 @@
     justify-content: flex-start;
     position: absolute;
     width: 397.935px;
-    height: 48.48%;
-    top: 22.73%;
+    height: 60.48%;
+    top: 40px;
     left: 18.29%;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
@@ -1946,7 +1989,7 @@
     justify-content: flex-start;
     position: absolute;
     height: 21.21%;
-    top: 36.36%;
+    top: 40px;
     left: 6.05%;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
@@ -1975,7 +2018,7 @@
     justify-content: flex-start;
     position: absolute;
     height: 24.24%;
-    top: 34.85%;
+    top: 40px;
     left: 17.99%;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
@@ -2004,7 +2047,7 @@
     justify-content: flex-start;
     position: absolute;
     height: 21.21%;
-    top: 36.36%;
+    top: 42px;
     left: 6.05%;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
@@ -2054,8 +2097,7 @@
     justify-content: flex-start;
     position: absolute;
     width: 397.935px;
-    height: 48.48%;
-    top: 22.73%;
+    top: 25px;
     left: 17.99%;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
@@ -2073,7 +2115,7 @@
     justify-content: flex-start;
     position: absolute;
     height: 21.21%;
-    top: 36.36%;
+    top: 44px;
     left: 6.05%;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
@@ -2093,7 +2135,7 @@
     background: url(../assets/images/images_768/869bdea3-3d4a-488c-b880-12c29b3a623d.png)
       no-repeat center;
     background-size: 100% 100%;
-    z-index: 29;
+    z-index: 50;
   }
   .white-glossy-42 {
     position: absolute;

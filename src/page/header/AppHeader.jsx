@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
+import AppRuEng from './AppRuEng'; // Импорт компонента AppRuEng
+import Link from '@mui/material/Link';
+import AppFunctions from '../functions/AppFunctions';
 
 export default function AppHeader() {
     const [content, setContent] = useState();
 
-    function handleClick(type){
+    function handleClick(type) {
         console.log('button clicked', type);
         setContent(type);
     }
@@ -16,10 +19,13 @@ export default function AppHeader() {
                 <div className='screenshoter-21'>
                     <div className='flex-column-bc'>
                         <div className='logo' />
-                        <span className='share-screen'>Вместе со Screenshoter можно в один клик сделать снимок или записать происходящее на экране ПК, чтобы поделиться с кем угодно
+                        <span className='share-screen'>
+                            Вместе со Screenshoter можно в один клик сделать снимок или записать происходящее на экране ПК, чтобы поделиться с кем угодно
                         </span>
-                        <div className='rectangle-22'>                            
-                            <ButtonSave className='rectangle-22 button-save' onClick={() => handleClick('saved')}><span className='download-free-23'>Скачать бесплатно</span></ButtonSave>
+                        <div className='rectangle-22'>
+                            <ButtonSave className='rectangle-22 button-save' onClick={() => handleClick('saved')}>
+                                <span className='download-free-23'>Скачать бесплатно</span>
+                            </ButtonSave>
                         </div>
                         <div className='capture-screen'>
                             <span className='capture-screen-24'>Делайте снимки <br />и записывайте экран<br /></span>
@@ -29,15 +35,15 @@ export default function AppHeader() {
                     </div>
                     <div className='flex-column-cd'>
                         <div className='frame-26'>
-                            <span className='features-27'>Функции</span>
-                            <span className='advantages-28'>Преимущества</span>
-                            <span className='how-to-use-29'>Как использовать</span>
-                            <span className='faq-2a'>Частые вопросы</span>
-                            <div className='languages'>
-                                <span className='ru'>RU</span>
-                                <div className='vector' />
-                            </div>
+                            <Link href={AppFunctions} className='features-27' color="inherit">Функции</Link>
+                            <Link href="#advantages" className='advantages-28' variant="body2">Преимущества</Link>
+                            <Link href="#how-to-use" className='how-to-use-29' color="inherit">Как использовать</Link>
+                            <Link href="#faq" className='faq-2a' variant="body2">Частые вопросы</Link>
+                            {/* <div className='languages'> */}
+                            <AppRuEng /> 
+                            {/* </div> */}
                         </div>
+                        {/* <AppRuEng />  куда-то ее вставить нужно */}
                         <div className='rectangle-2d'>
                             <span className='span-windows'>
                                 Бесплатная программа
@@ -52,8 +58,8 @@ export default function AppHeader() {
                     <div className='arrow-down'>
                         <div className='vector-30' />
                     </div>
-                </div>   
-            </div> 
-        </div> 
+                </div>
+            </div>
+        </div>
     );
 }
