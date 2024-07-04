@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Suspense, lazy } from 'react';
 
-//const MobilePage = lazy(() => import('./page/index_375.jsx'));
-//const TabletPage = lazy(() => import('./page/index_768.jsx'));
+const MobilePage = lazy(() => import('./page/App375.jsx'));
+const TabletPage = lazy(() => import('./page/App768.jsx'));
 const DesktopPage = lazy(() => import('./page/App1920.jsx'));
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
   }, []);
 
   function getScreenSize() {
-    if (window.matchMedia("(max-width: 375px)").matches) {
+    if (window.matchMedia("(max-width: 376px)").matches) {
       return 'mobile';
     } else if (window.matchMedia("(max-width: 768px)").matches) {
       return 'tablet';
