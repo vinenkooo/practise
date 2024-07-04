@@ -2157,7 +2157,7 @@
     background: url(../assets/images/images_768/a5c367e2-370e-48c7-b7c7-e257991475ba.png)
       no-repeat center;
     background-size: 100% 100%;
-    z-index: 13;
+    z-index: 0;
   }
   .white-glossy-44 {
     position: absolute;

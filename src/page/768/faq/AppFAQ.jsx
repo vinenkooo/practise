@@ -23,10 +23,6 @@ export default function AppFAQ() {
             <div className='white-glossy' />
             <div className='purple-glossy-41' />              
             <div className='white-glossy-42' />           
-            <div className='rectangle-3f'>
-              <span className='delete-files'>Можно ли удалить файлы с сервера<br />в пару кликов?</span>
-              <span className='dot-40'>05.</span>
-            </div>
           </div>
 
 
