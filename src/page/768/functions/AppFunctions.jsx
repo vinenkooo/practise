@@ -5,7 +5,7 @@ import ButtonMini from '../../button/ButtonMini';
 import ButtonMoment from '../../button/ButtonMoment'
 import ButtonUdobniy from '../../button/ButtonUdobniy'
 import ButtonBesplatno from '../../button/ButtonBesplatno'
-// import ButtonVibirayte from '../button/ButtonVibirayte'
+import ButtonVibirayte from '../../button/ButtonVibirayte'
 // import ButtonIspolzuite from '../button/ButtonIspolzuite'
 // import ButtonOstavlyate from '../button/ButtonOstavlyate'
 // import ButtonRazmivayte from '../button/ButtonRazmivayte'
@@ -124,6 +124,7 @@ export default function AppFunctions() {
                     <span className='image-editor'>И редактор<br />снимков</span>
                 </div>
                 <div className='editor-info'>
+                    <ButtonVibirayte className='vibirayte_white' />
                     <ButtonSave className='download-free-25'><span >Скачать бесплатно</span></ButtonSave>
                     {/* <div className='download-free-25' /> */}
                 </div>

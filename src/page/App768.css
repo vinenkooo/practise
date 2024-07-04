@@ -2497,3 +2497,23 @@
     background: url(../assets/images/images_768/moment-violet.png) no-repeat center;
     background-size: cover;
   } 
+
+
+  .vibirayte_white {
+    position: absolute;
+    width: 420px;
+    height: 412px;
+    top: 0;
+    left: -30px;
+    background: url(../assets/images/images_768/vibirayte_white.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 999;
+    border-width: 0px;
+  }
+
+
+  .vibirayte_white.new-background {
+    background: url(../assets/images/images_768/vibirayte_violet.png) no-repeat center;
+    background-size: cover;
+  }

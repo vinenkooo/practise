@@ -3,12 +3,15 @@ import React from 'react';
 
 export default function Button({ className, children }) {
   function handleClick() {
-    const element = document.querySelector('.img-1b');
-    if (element) {
-      element.classList.toggle('new-background');
+    const elements = document.querySelectorAll('.img-1b, vibirayte_white');
+    if (elements.length > 0) {
+      elements.forEach(element => {
+        if (element) {
+          element.classList.toggle('new-background');
+        }
+      });
     }
   }
-
   function handleMouseEnter() {}
   
   return (
