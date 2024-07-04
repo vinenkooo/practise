@@ -17,7 +17,7 @@ export default function App() {
   }, []);
 
   function getScreenSize() {
-    if (window.matchMedia("(max-width: 375px)").matches) {
+    if (window.matchMedia("(max-width: 376px)").matches) {
       return 'mobile';
     } else if (window.matchMedia("(max-width: 768px)").matches) {
       return 'tablet';

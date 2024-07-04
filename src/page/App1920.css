@@ -965,6 +965,33 @@
     border-radius: 16px;
     backdrop-filter: blur(20px);
   }
+    
+  .custom-accordion {
+    position: absolute;
+    width: 1196px;
+    height: 140px; /* initial height */
+    top: 217px;
+    left: 362px;
+    z-index: 52;
+    overflow: hidden;
+    transition: height 0.3s ease; /* transition for height */
+    border-radius: 8px; /* Round all corners */
+    background-color: red;
+    padding: 10px;
+}
+
+.custom-accordion.open {
+    height: 258px; /* expanded height */
+    border-radius: 8px; /* Ensure this is also applied when open */
+}
+
+.custom-accordion-summary, .custom-accordion-details {
+    border-radius: inherit; /* Inherit the border radius from the parent */
+}
+
+
+  
+  
   .flex-row-c-d {
     position: relative;
     width: 1093px;
@@ -978,7 +1005,7 @@
     justify-content: flex-start;
     position: absolute;
     height: 100%;
-    top: 0;
+    top: -10px;
     left: 0;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
@@ -995,8 +1022,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 88.37%;
-    top: 0;
-    left: 17.84%;
+    top: -10px;
+    left: 195px;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
     font-size: 24px;
@@ -1018,6 +1045,75 @@
     transform: translate(1266.25%, -53.75%);
     z-index: 54;
   }
+
+  .text-21 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 584px;
+    height: 88px;
+    margin: 30px 0 0 246px;
+    color: #818181;
+    font-family: Rubik, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    z-index: 55;
+  }
+
+  .text-29 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 584px;
+    height: 88px;
+    margin: 40px 0 0 246px;
+    color: #818181;
+    font-family: Rubik, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    z-index: 55;
+  }
+
+  .text-30 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 584px;
+    height: 88px;
+    margin: 30px 0 0 246px;
+    color: #818181;
+    font-family: Rubik, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    z-index: 55;
+  }
+
+  .text-31 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 584px;
+    height: 88px;
+    margin: 30px 0 0 246px;
+    color: #818181;
+    font-family: Rubik, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    z-index: 55;
+  }
+
   .text-24 {
     display: flex;
     align-items: flex-start;
@@ -1025,7 +1121,7 @@
     position: relative;
     width: 584px;
     height: 88px;
-    margin: 19px 0 0 246px;
+    margin: -30px 0 0 246px;
     color: #818181;
     font-family: Rubik, var(--default-font-family);
     font-size: 18px;
@@ -1075,8 +1171,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 30.71%;
-    top: 32.14%;
-    left: 3.85%;
+    top: 45px;
+    left: 55px;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
     font-size: 36px;
@@ -1104,8 +1200,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 27.14%;
-    top: 33.57%;
-    left: 20.15%;
+    top: 50px;
+    left: 253px;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
     font-size: 24px;
@@ -1134,8 +1230,8 @@
     position: absolute;
     width: 596px;
     height: 54.29%;
-    top: 20%;
-    left: 20.15%;
+    top: 20px;
+    left: 253px;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
     font-size: 24px;
@@ -1150,8 +1246,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 30.71%;
-    top: 32.14%;
-    left: 3.85%;
+    top: 45px;
+    left: 55px;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
     font-size: 36px;
@@ -1202,8 +1298,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 30.71%;
-    top: 32.14%;
-    left: 3.85%;
+    top: 45px;
+    left: 55px;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
     font-size: 36px;
@@ -1231,8 +1327,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 27.14%;
-    top: 33.57%;
-    left: 20.15%;
+    top: 45px;
+    left: 253px;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
     font-size: 24px;
@@ -1271,8 +1367,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 30.71%;
-    top: 32.14%;
-    left: 3.85%;
+    top: 45px;
+    left: 55px;
     color: #7421b0;
     font-family: Rubik, var(--default-font-family);
     font-size: 36px;
@@ -1300,8 +1396,8 @@
     justify-content: flex-start;
     position: absolute;
     height: 27.14%;
-    top: 33.57%;
-    left: 20.15%;
+    top: 45px;
+    left: 253px;
     color: #131313;
     font-family: Rubik, var(--default-font-family);
     font-size: 24px;

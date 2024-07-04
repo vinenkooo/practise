@@ -8,10 +8,10 @@ import AppFAQ from './375/faq/AppFAQ'
 export default function Main() {
   return (
     <div>
-      {/* <AppHeader />  */}
-      {/* <AppFunctions />   */}
-      {/* <AppHowToUse />   */}
-      {/* <AppFAQ /> */}
+      <AppHeader />  
+      <AppFunctions />  
+       <AppHowToUse />   
+       <AppFAQ />
     </div> 
 
   );
