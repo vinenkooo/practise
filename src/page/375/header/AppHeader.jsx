@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../../App375.css';
 import ButtonSave from '../../button/ButtonSave';
 import { Rectangle } from '@mui/icons-material';
+import AppMenu from './AppMenu'
 
 export default function AppHeader() {
     const [content, setContent] = useState();
@@ -15,7 +16,7 @@ export default function AppHeader() {
         <div className='main-container header'>
             <div className='flex-row-aeb'>
                 <div className='image' />
-                <div className='image-1' />
+                <div className='image-1'><AppMenu/></div>
             </div>
             <div className='flex-row'>
         <div className='rectangle'>

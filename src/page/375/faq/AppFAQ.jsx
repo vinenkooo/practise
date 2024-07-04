@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../App375.css';
 import ButtonSave from '../../button/ButtonSave';
+import CarouselFAQ from './CarouselFAQ';
 
 export default function AppFAQ() {
     const [content, setContent] = useState();
@@ -13,14 +14,11 @@ export default function AppFAQ() {
       <div className='main-container fourth'>
         <div className='flex-row-de'>
         <div className='holo-simulator-42'>
-          <span className='faq'>FAQ</span>
-          <div className='paid' />
-          <div className='platforms' />
-          <div className='cylinder-iridescent' />
-          <div className='screenshoter-43' />
-          <div className='save-location' />
-          <div className='color-white-glossy-44' />
-          <div className='can' />
+          <span className='faq'>FAQ</span>  
+          <CarouselFAQ />     
+      
+          <div className='cylinder-iridescent' />         
+          <div className='color-white-glossy-44' />      
           <div className='cone-purple-glossy' />
         </div>
         <div className='color-white-glossy-45' />
