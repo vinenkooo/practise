@@ -1642,14 +1642,15 @@
   .bez-registracii {
     position: absolute;
     width: 394px;
-    height: 364px;
-    top: 0;
+    height: 400px;
+    top: -36px;
     left: 0;
     background: url(../assets/images/images_768/e9b62c2fa38a6f30e355b92ff364c95086d970cb.png)
       no-repeat center;
     background-size: cover;
     z-index: 999;
     border-width: 0px;
+    border-radius: 15px;
   }
 
 
@@ -1661,8 +1662,8 @@
   .besplatno {
     position: absolute;
     width: 394px;
-    height: 364px;
-    top: 0;
+    height: 400px;
+    top: -36px;
     left: 354px;
     background: url(../assets/images/images_768/fbd0922d485b9cbbad3fe09457fe8eecb402ecca.png)
       no-repeat center;
@@ -1680,7 +1681,7 @@
   .neogranichennoe-kolichestvo {
     position: absolute;
     width: 394px;
-    height: 364px;
+    height: 400px;
     top: 330px;
     left: 0;
     background: url(../assets/images/images_768/2685e820c0171d51b78ea843a3f64851d8a77332.png)
@@ -1699,7 +1700,7 @@
   .fayly-hranyatsya {
     position: absolute;
     width: 394px;
-    height: 364px;
+    height: 400px;
     top: 330px;
     left: 354px;
     background: url(../assets/images/images_768/256cd099aab4f7a4da86cf9bcb540bad38f3606a.png)
