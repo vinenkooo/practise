@@ -12,7 +12,7 @@ export default function AppHeader() {
     }
 
     return (
-        <div className='main-container'>
+        <div className='main-container header'>
             <div className='flex-row-ec'>
                 <div className='screenshoter' />
                 <div className='mobile-button' />
@@ -29,7 +29,7 @@ export default function AppHeader() {
                         </div>
                         <div className='meet-screenshots'>
                             <span className='meet-screenshots-record'>Встречайте — скриншоты<br />и запись экрана</span>
-                            <span className='two-in-one'>2 в 1</span>
+                            <span className='two-in-one'> 2 в 1</span>
                         </div>
                         <div className='capture-record-click'>
                             <span className='capture-record-click-1'>Делайте снимки<br />и записывайте экран<br /></span>

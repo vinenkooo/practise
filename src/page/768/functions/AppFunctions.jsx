@@ -1,6 +1,14 @@
 import React, { useState } from 'react';
 import '../../App768.css';
 import ButtonSave from '../../button/ButtonSave';
+import ButtonMini from '../../button/ButtonMini';
+import ButtonMoment from '../../button/ButtonMoment'
+import ButtonUdobniy from '../../button/ButtonUdobniy'
+import ButtonBesplatno from '../../button/ButtonBesplatno'
+// import ButtonVibirayte from '../button/ButtonVibirayte'
+// import ButtonIspolzuite from '../button/ButtonIspolzuite'
+// import ButtonOstavlyate from '../button/ButtonOstavlyate'
+// import ButtonRazmivayte from '../button/ButtonRazmivayte'
 
 // УДОЛИ ДУБЛИРУЮЩИЙ ХЭДЭРЭ
 export default function AppFunctions() {
@@ -12,8 +20,8 @@ export default function AppFunctions() {
     }
 
     return (
-        <div className='main-container'>
-            <div className='flex-row'>
+        <div className='main-container second'>
+            {/* <div className='flex-row'>
                 <div className='image'>
                     <div className='flex-column'>
                         <span className='together-screenshoter'>Вместе со Screenshoter можно в один клик сделать снимок или записать происходящее на экране ПК, чтобы поделиться<br />с кем угодно</span>
@@ -40,11 +48,11 @@ export default function AppFunctions() {
                     <span className='empty-8'>. </span>
                     <span className='no-more-searching-9'>Можно выделить весь экран, определенную область или активное окно<br /></span>
                 </div>       
-            </div>
+            </div> */}
             <div className='flex-row-d-4e'>
-                <div className='capture-and-record-in-one-click' />
-                <div className='convenient-editor' />
-                <div className='free-and-no-registration' />
+                <ButtonMini className='capture-and-record-in-one-click' />
+                <ButtonUdobniy className='convenient-editor' />
+                <ButtonBesplatno className='free-and-no-registration' />
                 <div className='decorative-line-4f'>
                     <div className='white-glossy-50' />
                 </div>
@@ -55,7 +63,7 @@ export default function AppFunctions() {
                     <span className='gif-54'>gif.</span>
                 </div>
             </div>
-            <div className='instant-link-55' />
+            <ButtonMoment className='instant-link-55' />
             <div className='flex-row-a'>
                 <span className='screen-record'>Запись экрана</span>
                 <div className='not-enough-screenshots'>

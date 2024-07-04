@@ -2,12 +2,15 @@ import React from 'react';
 
 export default function Button({ className, children }) {
   function handleClick() {
-    const element = document.querySelector('.img-6');
-    if (element) {
-      element.classList.toggle('new-background');
+    const elements = document.querySelectorAll('.img-6, .bez-registracii');
+    if (elements.length > 0) {
+      elements.forEach(element => {
+        if (element) {
+          element.classList.toggle('new-background');
+        }
+      });
     }
   }
-
   function handleMouseEnter() {}
   
   return (

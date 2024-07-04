@@ -3,9 +3,13 @@ import React from 'react';
 
 export default function Button({ className, children }) {
   function handleClick() {
-    const element = document.querySelector('.span-convenient');
-    if (element) {
-      element.classList.toggle('new-background');
+    const elements = document.querySelectorAll('.span-convenient, .convenient-editor');
+    if (elements.length > 0) {
+      elements.forEach(element => {
+        if (element) {
+          element.classList.toggle('new-background');
+        }
+      });
     }
   }
 
@@ -17,3 +21,4 @@ export default function Button({ className, children }) {
     </button>
   );
 }
+
