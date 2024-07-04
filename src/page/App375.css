@@ -2244,8 +2244,16 @@
     background: url(../assets/images/images_375/8a2308f097942dd5ed72b3b803f3d25ddc709fe5.png)
       no-repeat center;
     background-size: cover;
+    border-width: 0px;
     z-index: 108;
   }
+
+  .choose.new-background {
+    background: url(../assets/images/images_375/vibirayte_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 980;
+  }   
+
   .use {
     position: absolute;
     width: 375px;
@@ -2256,7 +2264,15 @@
       no-repeat center;
     background-size: cover;
     z-index: 107;
+    border-width: 0px;
   }
+
+  .use.new-background {
+    background: url(../assets/images/images_375/ispolzuite_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 981;
+  }   
+
   .flex-row-fa {
     position: absolute;
     width: 100%;
@@ -2275,7 +2291,15 @@
       no-repeat center;
     background-size: cover;
     z-index: 106;
+    border-width: 0px;
   }
+
+  .leave.new-background {
+    background: url(../assets/images/images_375/ostavlyaite_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 982;
+  }   
+
   .blur {
     position: absolute;
     width: 375px;
@@ -2286,7 +2310,16 @@
       no-repeat center;
     background-size: cover;
     z-index: 105;
+    border-width: 0px;
   }
+
+  .blur.new-background {
+    background: url(../assets/images/images_375/razmivayte_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 983;
+  }   
+
+
   .rectangle-66 {
     position: absolute;
     width: 45.33%;
@@ -2324,7 +2357,14 @@
       no-repeat center;
     background-size: cover;
     z-index: 999;
+    border-width: 0px;
   }
+
+  .no-registration.new-background {
+    background: url(../assets/images/images_375/bez_reg_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 983;
+  }   
   .flex-row-ae {
     position: absolute;
     width: 375px;
@@ -2343,7 +2383,14 @@
       no-repeat center;
     background-size: cover;
     z-index: 47;
+    border-width: 0px;
   }
+
+  .free.new-background {
+    background: url(../assets/images/images_375/bespl2_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 984;
+  }   
   .unlimited-quantity {
     position: absolute;
     width: 375px;
@@ -2354,7 +2401,14 @@
       no-repeat center;
     background-size: cover;
     z-index: 46;
+    border-width: 0px;
   }
+
+  .unlimited-quantity.new-background {
+    background: url(../assets/images/images_375/neogr_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 985;
+  }  
   .file-storage-68 {
     position: absolute;
     width: 375px;
@@ -2365,5 +2419,12 @@
       no-repeat center;
     background-size: cover;
     z-index: 45;
+    border-width: 0px;
   }
+
+  .file-storage-68.new-background {
+    background: url(../assets/images/images_375/fayli_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 986;
+  }  
   

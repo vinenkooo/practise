@@ -5,10 +5,10 @@ import ButtonMini from '../../button/ButtonMini';
 import ButtonMoment from '../../button/ButtonMoment'
 import ButtonUdobniy from '../../button/ButtonUdobniy'
 import ButtonBesplatno from '../../button/ButtonBesplatno'
-// import ButtonVibirayte from '../button/ButtonVibirayte'
-// import ButtonIspolzuite from '../button/ButtonIspolzuite'
-// import ButtonOstavlyate from '../button/ButtonOstavlyate'
-// import ButtonRazmivayte from '../button/ButtonRazmivayte'
+import ButtonVibirayte from '../../button/ButtonVibirayte'
+import ButtonIspolzuite from '../../button/ButtonIspolzuite'
+import ButtonOstavlyate from '../../button/ButtonOstavlyate'
+import ButtonRazmivayte from '../../button/ButtonRazmivayte'
 
 
 export default function AppFunctions() {
@@ -162,7 +162,7 @@ export default function AppFunctions() {
         <div className='decorative-line-63'>
 
         </div>
-        <div className='choose' />
+        <ButtonVibirayte className='choose' />
       </div>
       <div className='flex-row-f'>
         <div className='white-glossy' />
@@ -208,10 +208,10 @@ export default function AppFunctions() {
         
         
       </div>
-      <div className='use' />
+      <ButtonIspolzuite className='use' />
       <div className='flex-row-fa'>
-        <div className='leave' />
-        <div className='blur' />
+        <ButtonOstavlyate className='leave' />
+        <ButtonRazmivayte className='blur' />
         <div className='rectangle-66'>
           <span className='download-free-67'>Скачать бесплатно</span>
         </div>

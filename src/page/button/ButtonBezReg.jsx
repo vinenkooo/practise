@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Button({ className, children }) {
   function handleClick() {
-    const elements = document.querySelectorAll('.img-6, .bez-registracii');
+    const elements = document.querySelectorAll('.img-6, .bez-registracii, .no-registration');
     if (elements.length > 0) {
       elements.forEach(element => {
         if (element) {

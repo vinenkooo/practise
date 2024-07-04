@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import '../../App375.css';
 import ButtonSave from '../../button/ButtonSave';
+import ButtonBezReg from '../../button/ButtonBezReg';
+import ButtonBespl from '../../button/ButtonBespl';
+import ButtonNeogr from '../../button/ButtonNeogr';
+import ButtonFayli from '../../button/ButtonFayli';
 
 export default function AppHowToUse() {
     const [content, setContent] = useState();
@@ -87,11 +91,11 @@ export default function AppHowToUse() {
             <span className='useful-internet'> полезен всем,<br />кто работает в интернете</span>
         </div>
         <span className='work-discussions'>Согласовывайте рабочие вопросы, показывайте интересные вещи и обсуждайте любые темы. Делитесь комментариями с помощью бесплатного<br />инструмента 2 в 1<br /></span>
-        <div className='no-registration' />
+        <ButtonBezReg className='no-registration' />
         <div className='flex-row-ae'>
-            <div className='free' />
-            <div className='unlimited-quantity' />
-            <div className='file-storage-68' />
+            <ButtonBespl className='free' />
+            <ButtonNeogr className='unlimited-quantity' />
+            <ButtonFayli className='file-storage-68' />
         </div>
             
     </div>        
