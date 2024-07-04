@@ -6,9 +6,9 @@ import ButtonMoment from '../../button/ButtonMoment'
 import ButtonUdobniy from '../../button/ButtonUdobniy'
 import ButtonBesplatno from '../../button/ButtonBesplatno'
 import ButtonVibirayte from '../../button/ButtonVibirayte'
-// import ButtonIspolzuite from '../button/ButtonIspolzuite'
-// import ButtonOstavlyate from '../button/ButtonOstavlyate'
-// import ButtonRazmivayte from '../button/ButtonRazmivayte'
+import ButtonIspolzuite from '../../button/ButtonIspolzuite'
+import ButtonOstavlyate from '../../button/ButtonOstavlyate'
+import ButtonRazmivayte from '../../button/ButtonRazmivayte'
 
 // УДОЛИ ДУБЛИРУЮЩИЙ ХЭДЭРЭ
 export default function AppFunctions() {
@@ -125,6 +125,9 @@ export default function AppFunctions() {
                 </div>
                 <div className='editor-info'>
                     <ButtonVibirayte className='vibirayte_white' />
+                    <ButtonIspolzuite className='ispolzuite_white' />
+                    <ButtonOstavlyate className='ostavlyate_white' />
+                    <ButtonRazmivayte className='razmivayte_white' />
                     <ButtonSave className='download-free-25'><span >Скачать бесплатно</span></ButtonSave>
                     {/* <div className='download-free-25' /> */}
                 </div>

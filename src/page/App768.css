@@ -2517,3 +2517,57 @@
     background: url(../assets/images/images_768/vibirayte_violet.png) no-repeat center;
     background-size: cover;
   }
+
+  .ispolzuite_white {
+    position: absolute;
+    width: 420px;
+    height: 412px;
+    top: 0;
+    left: 360px;
+    background: url(../assets/images/images_768/ispolzuite_white.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 999;
+    border-width: 0px;
+  }
+
+  .ispolzuite_white.new-background {
+    background: url(../assets/images/images_768/ispolzuite_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
+  .ostavlyate_white {
+    position: absolute;
+    width: 420px;
+    height: 412px;
+    top: 365px;
+    left: -30px;
+    background: url(../assets/images/images_768/ostavlyate_white.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 999;
+    border-width: 0px;
+  }
+
+  .ostavlyate_white.new-background {
+    background: url(../assets/images/images_768/ostavlyate_violet.png) no-repeat center;
+    background-size: cover;
+  } 
+
+  .razmivayte_white {
+    position: absolute;
+    width: 420px;
+    height: 412px;
+    top: 365px;
+    left: 355px;
+    background: url(../assets/images/images_768/razmivayte_white.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 999;
+    border-width: 0px;
+  }
+
+  .razmivayte_white.new-background {
+    background: url(../assets/images/images_768/razmivayte_violet.png) no-repeat center;
+    background-size: cover;
+  } 
