@@ -10,7 +10,7 @@ export default function AppFAQ() {
         setContent(type);
     }
     return (
-      <div className='main-container'>
+      <div className='main-container fourth'>
         <div className='flex-row-de'>
         <div className='holo-simulator-42'>
           <span className='faq'>FAQ</span>
@@ -21,8 +21,8 @@ export default function AppFAQ() {
           <div className='save-location' />
           <div className='color-white-glossy-44' />
           <div className='can' />
+          <div className='cone-purple-glossy' />
         </div>
-        <div className='cone-purple-glossy' />
         <div className='color-white-glossy-45' />
         <div className='decorative-line-46' />
         <div className='color-white-glossy-47' />

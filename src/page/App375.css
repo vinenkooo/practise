@@ -29,6 +29,46 @@
     background: #ffffff;
     overflow: hidden;
   }
+  
+  .main-container.header{
+    position: absolute;
+    width: 375px;
+    height: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+
+  .main-container.second{
+    position: absolute;
+    width: 375px;
+    height: 4000px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 700px;
+  }
+
+  .main-container.third{
+    position: absolute;
+    width: 375px;
+    height: 5200px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 3300px;
+  }
+
+  .main-container.fourth{
+    position: absolute;
+    width: 375px;
+    height: 2960px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    top: 6850px;
+  }
+
   .flex-row-aeb {
     display: flex;
     align-items: center;
@@ -75,7 +115,7 @@
     background: url(../assets/images/images_375/921a6afa-a540-4b65-b711-0fe887847891.png)
       no-repeat center;
     background-size: 100% 100%;
-    z-index: 192;
+    z-index: 12;
     border-radius: 35px;
   }
   .rectangle-2 {
@@ -85,7 +125,7 @@
     margin: 212px 0 0 41px;
     background: rgba(196, 196, 196, 0.1);
     border: 0.5px solid rgba(255, 255, 255, 0.15);
-    z-index: 196;
+    z-index: 999;
     border-radius: 10px;
     backdrop-filter: blur(10.01px);
   }
@@ -125,7 +165,7 @@
     background: url(../assets/images/images_375/8634201f09a61128f8e17d9ad98001feb1b106d6.png)
       no-repeat center;
     background-size: cover;
-    z-index: 194;
+    z-index: 14;
     border-radius: 2.178px;
   }
   .capture-screen {
@@ -1050,7 +1090,9 @@
     background: url(../assets/images/images_375/7965b06f-c5b9-41e7-a9e3-9e8f6b4c3e33.png)
       no-repeat center;
     background-size: cover;
-    z-index: 52;
+    z-index: 9;
+    opacity: 0.1; /* Полупрозрачный элемент */
+
   }
   .flex-row-df {
     display: flex;
@@ -1117,6 +1159,7 @@
       no-repeat center;
     background-size: cover;
     z-index: 100;
+    
   }
   .flex-row-b {
     display: flex;
@@ -1505,6 +1548,7 @@
     height: 95.001px;
     margin: 30px 0 0 15px;
     z-index: 42;
+    top: 80px;
   }
   .roundcube-purple-glossy {
     position: absolute;
@@ -1559,6 +1603,7 @@
     text-overflow: initial;
     white-space: nowrap;
     z-index: 43;
+    top: 80px;
   }
   .screenshoter-41 {
     position: relative;
@@ -1593,6 +1638,7 @@
     line-height: 24px;
     text-align: center;
     z-index: 44;
+    top: 80px;
   }
   .flex-row-de {
     position: relative;
@@ -1713,7 +1759,7 @@
     background: url(../assets/images/images_375/b5d7c9a6-d08f-4edf-b51b-7307687082a1.png)
       no-repeat center;
     background-size: 100% 100%;
-    z-index: 28;
+    z-index: 999;
   }
   .color-white-glossy-45 {
     position: absolute;
@@ -1724,7 +1770,8 @@
     background: url(../assets/images/images_375/146b89b6-f885-483e-aca8-291a674f7402.png)
       no-repeat center;
     background-size: cover;
-    z-index: 30;
+    z-index: 26;
+    opacity: 0.3;
   }
   .decorative-line-46 {
     position: absolute;
@@ -2168,7 +2215,7 @@
     position: absolute;
     width: 66.49%;
     height: 37.87%;
-    top: 20.27%;
+    top: 120px;
     left: 2.84%;
     background: url(../assets/images/images_375/b5de962c-826f-4eef-a335-8fab171d432d.png)
       no-repeat center;
@@ -2184,12 +2231,13 @@
       no-repeat center;
     background-size: cover;
     z-index: 150;
+    top: -28px;
   }
   .rectangle-5e {
     position: absolute;
     width: 224px;
     height: 182px;
-    top: 152px;
+    top: 172px;
     left: 8px;
     background: url(../assets/images/images_375/771b5a4a-4b82-4cf4-b9b7-5ef49a8be729.png)
       no-repeat center;
@@ -2219,7 +2267,7 @@
     position: absolute;
     width: 345px;
     height: 193px;
-    top: 182px;
+    top: 202px;
     left: 31px;
     background: #ffffff;
     z-index: 153;
@@ -2248,7 +2296,7 @@
     position: absolute;
     width: 187.04%;
     height: 4.5%;
-    top: 2690px;
+    top: 2650px;
     left: -55.73%;
     z-index: 115;
   }
@@ -2256,7 +2304,7 @@
     position: absolute;
     width: 100%;
     height: 84.75%;
-    top: 0;
+    top: 160px;
     left: 0;
     font-size: 0px;
     background: url(../assets/images/images_375/659b8176-95c5-4b27-a83d-acb82cbe8cc9.png)
@@ -2277,6 +2325,7 @@
     text-align: left;
     white-space: nowrap;
     z-index: 112;
+    top: -130px;
   }
   .more-editing-tools {
     position: relative;
@@ -2289,6 +2338,7 @@
     line-height: 22.56px;
     text-align: center;
     z-index: 111;
+    top: 80px;
   }
   .more-editing-tools-64 {
     position: relative;
@@ -2323,7 +2373,7 @@
     position: absolute;
     width: 375px;
     height: 175px;
-    top: 3080px;
+    top: 3020px;
     left: 0;
     background: url(../assets/images/images_375/e761f10e36b64958200bc1537962c94331b4d775.png)
       no-repeat center;
@@ -2342,7 +2392,7 @@
     position: absolute;
     width: 375px;
     height: 162px;
-    top: 0;
+    top: -65px;
     left: 0;
     background: url(../assets/images/images_375/7176cee1bcd4ce9a5cef77bb0a53e45813c2c39d.png)
       no-repeat center;
@@ -2353,7 +2403,7 @@
     position: absolute;
     width: 375px;
     height: 175px;
-    top: 112px;
+    top: 32px;
     left: 0;
     background: url(../assets/images/images_375/e97b7b28da2d26ebff97816db3c9f0654b2a891a.png)
       no-repeat center;
@@ -2363,11 +2413,11 @@
   .rectangle-66 {
     position: absolute;
     width: 45.33%;
-    height: 15.12%;
-    top: 84.88%;
+    height: 35%;
+    top: 180px;
     left: 28%;
     background: #131313;
-    z-index: 103;
+    z-index: 300;
     border-radius: 5px;
   }
   .download-free-67 {
@@ -2391,18 +2441,18 @@
     position: absolute;
     width: 375px;
     height: 190px;
-    top: 6863px;
+    top: 3550px;
     left: 0;
     background: url(../assets/images/images_375/cfa0472c743702647c471ff6872c7c1bace4d5a7.png)
       no-repeat center;
     background-size: cover;
-    z-index: 48;
+    z-index: 999;
   }
   .flex-row-ae {
     position: absolute;
     width: 375px;
     height: 440px;
-    top: 7003px;
+    top: 3700px;
     left: 0;
     z-index: 47;
   }

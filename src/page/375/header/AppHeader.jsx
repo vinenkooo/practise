@@ -12,7 +12,7 @@ export default function AppHeader() {
     }
 
     return (
-        <div className='main-container'>
+        <div className='main-container header'>
             <div className='flex-row-aeb'>
                 <div className='image' />
                 <div className='image-1' />

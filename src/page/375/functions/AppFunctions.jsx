@@ -11,7 +11,7 @@ export default function AppFunctions() {
     }
 
     return (
-        <div className='main-container'>
+        <div className='main-container second'>
             <div className='screenshots-and-screen-recording'>
         <span className='screenshots-and-screen-recording-6'>
           Встречайте — скриншоты
@@ -153,9 +153,7 @@ export default function AppFunctions() {
         </span>
       </div>
       <div className='flex-row-c-62'>
-        <div className='decorative-line-63'>
-          <span className='image-editor'>И редактор снимков</span>
-          <div className='more-editing-tools'>
+      <div className='more-editing-tools'>
             <span className='more-editing-tools-64'>
               Более 5 инструментов для редактирования
             </span>
@@ -170,6 +168,10 @@ export default function AppFunctions() {
               не удаляя то, что уже нарисовано!
             </span>
           </div>
+          <span className='image-editor'>И редактор снимков</span>
+
+        <div className='decorative-line-63'>
+
         </div>
         <div className='choose' />
       </div>

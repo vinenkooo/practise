@@ -10,7 +10,7 @@ export default function AppHowToUse() {
         setContent(type);
     }
     return (
-        <div className='main-container'>
+        <div className='main-container third'>
             <div className='flex-row-a'>
             <div className='purple-glossy-2e' />
             <div className='holo-simulator'>
@@ -84,7 +84,7 @@ export default function AppHowToUse() {
         </div>
         <div className='screenshoter-useful-internet'>
             <span className='screenshoter-41'>Screenshoter</span>
-            <span className='useful-internet'>полезен всем,<br />кто работает в интернете</span>
+            <span className='useful-internet'> полезен всем,<br />кто работает в интернете</span>
         </div>
         <span className='work-discussions'>Согласовывайте рабочие вопросы, показывайте интересные вещи и обсуждайте любые темы. Делитесь комментариями с помощью бесплатного<br />инструмента 2 в 1<br /></span>
         <div className='no-registration' />
