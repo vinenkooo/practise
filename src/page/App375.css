@@ -2005,154 +2005,63 @@
   }
   .snapshot-record {
     position: absolute;
-    width: 375px;
-    height: 162px;
-    top: 0;
-    left: 0;
-    z-index: 166;
-    overflow: hidden;
-  }
-  .group {
-    position: absolute;
-    width: 92%;
-    height: 56.79%;
-    top: 10.49%;
-    left: 4%;
-    z-index: 167;
-  }
-  .vector {
-    position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url(../assets/images/images_375/3012d86c-0124-4469-a6c3-2639cbd3111e.png)
+    height: 142px;
+    top: 30px;
+    left: 0px;
+    background: url(../assets/images/images_375/snimok_white.png)
       no-repeat center;
     background-size: 100% 100%;
     z-index: 168;
+    border-width: 0px;
+    border-radius: 5px;
   }
-  .clip-path-group {
-    position: absolute;
-    width: 10.67%;
-    height: 24.69%;
-    top: 26.54%;
-    left: 17.87%;
-    background: url(../assets/images/images_375/9291e918-9f95-43cd-9e17-dfb6fa813c43.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 170;
-  }
-  .vector-4f {
-    position: absolute;
-    width: 30.79%;
-    height: 19.51%;
-    top: 29.67%;
-    left: 44.71%;
-    background: url(../assets/images/images_375/2917d549-485e-4b70-9dc2-59aa42cd68c5.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 169;
-  }
+
+  .snapshot-record.new-background {
+    background: url(../assets/images/images_375/snimok_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 999;
+    top: 30px;
+    border-radius: 5px;
+  } 
   .instant-link-50 {
     position: absolute;
-    width: 375px;
-    height: 162px;
-    top: 112px;
-    left: 0;
-    z-index: 171;
-    overflow: hidden;
-  }
-  .group-51 {
-    position: absolute;
-    width: 92%;
-    height: 56.79%;
-    top: 10.49%;
-    left: 4%;
-    z-index: 172;
-  }
-  .vector-52 {
-    position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    height: 40%;
+    top: 120px;
     left: 0;
-    background: url(../assets/images/images_375/7a674863-afbd-4174-b6e1-e158d78d086e.png)
-      no-repeat center;
+    background: url(../assets/images/images_375/moment_white.png);
     background-size: 100% 100%;
-    z-index: 173;
+    z-index: 168;
+    border-width: 0px;
+    border-radius: 5px;
+
   }
-  .clip-path-group-53 {
-    position: absolute;
-    width: 10.67%;
-    height: 24.69%;
-    top: 26.54%;
-    left: 17.87%;
-    background: url(../assets/images/images_375/ab758d91-11b5-46bd-9af2-68b955e59bb0.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 175;
-  }
-  .vector-54 {
-    position: absolute;
-    width: 28.93%;
-    height: 19.42%;
-    top: 30.37%;
-    left: 44.9%;
-    background: url(../assets/images/images_375/b27293a4-b66c-49ef-b199-1f51bb17b8ca.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 174;
-  }
+
+
+  .instant-link-50.new-background {
+    background: url(../assets/images/images_375/moment_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 999;
+  } 
   .convenient-editor {
     position: absolute;
-    width: 375px;
-    height: 162px;
-    top: 224px;
-    left: 0;
-    z-index: 176;
-    overflow: hidden;
-  }
-  .group-55 {
-    position: absolute;
-    width: 92%;
-    height: 56.79%;
-    top: 10.49%;
-    left: 4%;
-    z-index: 177;
-  }
-  .vector-56 {
-    position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    height: 40%;
+    top: 220px;
     left: 0;
-    background: url(../assets/images/images_375/1e9fdcb6-93c3-4d0c-826a-54ad80066b91.png)
-      no-repeat center;
+    background: url(../assets/images/images_375/udobniy_white.png);
     background-size: 100% 100%;
-    z-index: 178;
+    z-index: 168;
+    border-width: 0px;
+    border-radius: 5px;
   }
-  .clip-path-group-57 {
-    position: absolute;
-    width: 10.67%;
-    height: 24.69%;
-    top: 26.54%;
-    left: 17.87%;
-    background: url(../assets/images/images_375/de8206fe-24c8-4d4e-9d26-a4ea49183e97.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 180;
-  }
-  .vector-58 {
-    position: absolute;
-    width: 34.01%;
-    height: 19.92%;
-    top: 29.25%;
-    left: 44.51%;
-    background: url(../assets/images/images_375/247599f1-6253-4014-9999-288f9219a501.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 179;
-  }
+
+  .convenient-editor.new-background {
+    background: url(../assets/images/images_375/moment_udobniy.png) no-repeat center;
+    background-size: cover;
+    z-index: 990;
+  }  
   .flex-row-ee {
     position: absolute;
     width: 150.4%;
@@ -2163,54 +2072,22 @@
   }
   .free-registration {
     position: absolute;
-    width: 375px;
-    height: 162px;
-    top: 0;
-    left: 16px;
-    z-index: 181;
-    overflow: hidden;
-  }
-  .group-59 {
-    position: absolute;
-    width: 92%;
-    height: 56.79%;
-    top: 10.49%;
-    left: 4%;
-    z-index: 182;
-  }
-  .vector-5a {
-    position: absolute;
-    width: 100%;
+    width: 70%;
     height: 100%;
-    top: 0;
-    left: 0;
-    background: url(../assets/images/images_375/e71fe4d9-87ab-4a30-9408-91c88cb1155f.png)
-      no-repeat center;
+    top: -10px;
+    left: 20px;
+    background: url(../assets/images/images_375/bespl_white.png);
     background-size: 100% 100%;
-    z-index: 183;
+    z-index: 168;
+    border-width: 0px;
+    border-radius: 5px;
   }
-  .clip-path-group-5b {
-    position: absolute;
-    width: 10.67%;
-    height: 24.69%;
-    top: 26.54%;
-    left: 17.87%;
-    background: url(../assets/images/images_375/6f4c6dbc-81a1-474b-8976-20b39cccbe8d.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 185;
-  }
-  .vector-5c {
-    position: absolute;
-    width: 33.95%;
-    height: 19.42%;
-    top: 29.75%;
-    left: 44.71%;
-    background: url(../assets/images/images_375/9c3db774-4d44-4250-bba8-0fa0108d573e.png)
-      no-repeat center;
-    background-size: 100% 100%;
-    z-index: 184;
-  }
+ 
+  .free-registration.new-background {
+    background: url(../assets/images/images_375/bespl_violet.png) no-repeat center;
+    background-size: cover;
+    z-index: 990;
+  }   
   .decorative-line-5d {
     position: absolute;
     width: 66.49%;

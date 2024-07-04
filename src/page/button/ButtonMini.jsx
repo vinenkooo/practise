@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Button({ className, children }) {
   function handleClick() {
-    const elements = document.querySelectorAll('.image-3b, .capture-and-record-in-one-click');
+    const elements = document.querySelectorAll('.image-3b, .capture-and-record-in-one-click, .snapshot-record');
     if (elements.length > 0) {
       elements.forEach(element => {
         if (element) {

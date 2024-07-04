@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import '../../App375.css';
 import ButtonSave from '../../button/ButtonSave';
+import ButtonMini from '../../button/ButtonMini';
+import ButtonMoment from '../../button/ButtonMoment'
+import ButtonUdobniy from '../../button/ButtonUdobniy'
+import ButtonBesplatno from '../../button/ButtonBesplatno'
+// import ButtonVibirayte from '../button/ButtonVibirayte'
+// import ButtonIspolzuite from '../button/ButtonIspolzuite'
+// import ButtonOstavlyate from '../button/ButtonOstavlyate'
+// import ButtonRazmivayte from '../button/ButtonRazmivayte'
+
 
 export default function AppFunctions() {
     const [content, setContent] = useState();
@@ -17,7 +26,7 @@ export default function AppFunctions() {
           Встречайте — скриншоты
           <br />и запись экрана
         </span>
-        <span className='text-7'>2 в 1</span>
+        <span className='text-7'> 2 в 1</span>
       </div>
       <div className='flex-row-c'>
         <div className='no-more-searching'>
@@ -67,38 +76,18 @@ export default function AppFunctions() {
           </span>
         </div>
         <div className='flex-row-daf'>
-        <div className='snapshot-record'>
-          <div className='group'>
-            <div className='vector' />
-          </div>
-          <div className='clip-path-group' />
-          <div className='vector-4f' />
-        </div>
-        <div className='instant-link-50'>
-          <div className='group-51'>
-            <div className='vector-52' />
-          </div>
-          <div className='clip-path-group-53' />
-          <div className='vector-54' />
-        </div>
-        <div className='convenient-editor'>
-          <div className='group-55'>
-            <div className='vector-56' />
-          </div>
-          <div className='clip-path-group-57' />
-          <div className='vector-58' />
-        </div>
+        <ButtonMini className='snapshot-record'>
+        </ButtonMini>
+        <ButtonMoment className='instant-link-50'>
+        </ButtonMoment>
+        <ButtonUdobniy className='convenient-editor'>
+        </ButtonUdobniy>
       </div>
         
       </div>
       <div className='flex-row-ee'>
-        <div className='free-registration'>
-          <div className='group-59'>
-            <div className='vector-5a' />
-          </div>
-          <div className='clip-path-group-5b' />
-          <div className='vector-5c' />
-        </div>
+        <ButtonBesplatno className='free-registration'>
+          </ButtonBesplatno>
         <div className='decorative-line-5d'>
           <div className='super-toroid-white-glossy' />
         </div>
