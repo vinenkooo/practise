@@ -36,20 +36,11 @@ export default function AppHeader({ onAdvantagesClick, onFunctionsClick, onHowTo
                     </div>
                     <div className='flex-column-cd'>
                         <div className='frame-26'>
-<<<<<<< HEAD
                             <Link to="#" onClick={onFunctionsClick} className='features-27' variant="body2">Функции</Link>
                             <Link to="#" onClick={onAdvantagesClick} className='advantages-28' variant="body2">Преимущества</Link>
                             <Link to="#" onClick={onHowToUseClick} className='how-to-use-29' variant="body2">Как использовать</Link>
                             <Link to="#" onClick={onFAQClick} className='faq-2a' variant="body2">Частые вопросы</Link>
-                            {/* <div className='languages'> */}
-=======
-                        <Link href="#features" className='features-27' color="inherit">Функции</Link>
-                        <Link href="#advantages" className='advantages-28' variant="body2">Преимущества</Link>
-                        <Link href="#how-to-use" className='how-to-use-29' color="inherit">Как использовать</Link>
-                        <Link href="#faq" className='faq-2a' variant="body2">Частые вопросы</Link>
 
-                         
->>>>>>> c27fc1371ad691781a66e0ab54c5122e20696c2c
                             <AppRuEng /> 
                          
                         </div>
