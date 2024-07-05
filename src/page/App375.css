@@ -781,9 +781,9 @@
   .ellipse {
     position: absolute;
     width: 315px;
-    height: 230px;
-    top: 6.001px;
-    left: 97px;
+    height: 280px;
+    top: 00px;
+    left: 55px;
     background: url(../assets/images/images_375/5b35140f-d751-4143-8479-72e6c6ecab5e.png)
       no-repeat center;
     background-size: cover;
@@ -901,8 +901,8 @@
   .ellipse-22 {
     position: absolute;
     width: 395px;
-    height: 233px;
-    top: 23px;
+    height: 273px;
+    top: 0px;
     left: 0;
     background: url(../assets/images/images_375/dc061098-b34c-49d1-946c-41d74f6a6a38.png)
       no-repeat center;

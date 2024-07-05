@@ -119,7 +119,7 @@ export default function AppFunctions() {
         </span>
       </div>
       <div className='flex-row-ec'>
-        <div className='purple-glossy' />
+        {/* <div className='purple-glossy' /> */}
         <div className='ellipse' />
         <div className='rectangle-1e'>
           <span className='gif'>gif.</span>
@@ -165,7 +165,7 @@ export default function AppFunctions() {
         <ButtonVibirayte className='choose' />
       </div>
       <div className='flex-row-f'>
-        <div className='white-glossy' />
+        {/* <div className='white-glossy' /> */}
         <div className='ellipse-22' />
         <div className='rectangle-23'>
           <span className='gif-24'>gif.</span>
