@@ -22,7 +22,7 @@ export default function BasicMenu() {
   };
 
   return (
-    <div style={{ position: 'relative', zIndex: 1000 }}> {/* Пример указания z-index */}
+    <div style={{ position: 'relative', zIndex: 1000 }}>
       <Button
         id="basic-button"
         aria-controls={open ? 'basic-menu' : undefined}

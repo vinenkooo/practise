@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
-import AppRuEng from './AppRuEng'; // Импорт компонента AppRuEng
+import AppRuEng from './AppRuEng'; 
 import Link from '@mui/material/Link';
 import AppFunctions from '../functions/AppFunctions';
 import 'react-router-dom';
@@ -36,15 +36,24 @@ export default function AppHeader({ onAdvantagesClick, onFunctionsClick, onHowTo
                     </div>
                     <div className='flex-column-cd'>
                         <div className='frame-26'>
+<<<<<<< HEAD
                             <Link to="#" onClick={onFunctionsClick} className='features-27' variant="body2">Функции</Link>
                             <Link to="#" onClick={onAdvantagesClick} className='advantages-28' variant="body2">Преимущества</Link>
                             <Link to="#" onClick={onHowToUseClick} className='how-to-use-29' variant="body2">Как использовать</Link>
                             <Link to="#" onClick={onFAQClick} className='faq-2a' variant="body2">Частые вопросы</Link>
                             {/* <div className='languages'> */}
+=======
+                        <Link href="#features" className='features-27' color="inherit">Функции</Link>
+                        <Link href="#advantages" className='advantages-28' variant="body2">Преимущества</Link>
+                        <Link href="#how-to-use" className='how-to-use-29' color="inherit">Как использовать</Link>
+                        <Link href="#faq" className='faq-2a' variant="body2">Частые вопросы</Link>
+
+                         
+>>>>>>> c27fc1371ad691781a66e0ab54c5122e20696c2c
                             <AppRuEng /> 
-                            {/* </div> */}
+                         
                         </div>
-                        {/* <AppRuEng />  куда-то ее вставить нужно */}
+                       
                         <div className='rectangle-2d'>
                             <span className='span-windows'>
                                 Бесплатная программа

@@ -1273,7 +1273,7 @@
       no-repeat center;
     background-size: cover;
     z-index: 9;
-    opacity: 0.1; /* Полупрозрачный элемент */
+    opacity: 0.1;
 
   }
   .flex-row-df {

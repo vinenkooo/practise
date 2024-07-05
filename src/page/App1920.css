@@ -970,28 +970,25 @@
   .custom-accordion {
     position: absolute;
     width: 1196px;
-    height: 140px; /* initial height */
+    height: 140px; 
     top: 217px;
     left: 362px;
     z-index: 52;
     overflow: hidden;
-    transition: height 0.3s ease; /* transition for height */
-    border-radius: 8px; /* Round all corners */
+    transition: height 0.3s ease; 
+    border-radius: 8px;
     background-color: red;
     padding: 10px;
 }
 
 .custom-accordion.open {
-    height: 258px; /* expanded height */
-    border-radius: 8px; /* Ensure this is also applied when open */
+    height: 258px; 
+    border-radius: 8px; 
 }
 
 .custom-accordion-summary, .custom-accordion-details {
-    border-radius: inherit; /* Inherit the border radius from the parent */
-}
-
-
-  
+    border-radius: inherit; 
+}  
   
   .flex-row-c-d {
     position: relative;
