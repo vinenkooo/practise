@@ -17,7 +17,7 @@ export default function App() {
   }, []);
 
   function getScreenSize() {
-    if (window.matchMedia("(max-width: 376px)").matches) {
+    if (window.matchMedia("(max-width: 375px)").matches) {
       return 'mobile';
     } else if (window.matchMedia("(max-width: 768px)").matches) {
       return 'tablet';
@@ -25,7 +25,6 @@ export default function App() {
       return 'desktop';
     }
   }
-
   return (
     <div>
       <Suspense fallback={<div>Loading...</div>}>

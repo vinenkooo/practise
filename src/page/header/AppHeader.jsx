@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
-import AppRuEng from './AppRuEng'; // Импорт компонента AppRuEng
+import AppRuEng from './AppRuEng'; 
 import Link from '@mui/material/Link';
 import AppFunctions from '../functions/AppFunctions';
 import 'react-router-dom';
@@ -42,9 +42,9 @@ export default function AppHeader({ onAdvantagesClick, onFunctionsClick, onHowTo
                             <Link to="#" onClick={onFAQClick} className='faq-2a' variant="body2">Частые вопросы</Link>
                             {/* <div className='languages'> */}
                             <AppRuEng /> 
-                            {/* </div> */}
+                         
                         </div>
-                        {/* <AppRuEng />  куда-то ее вставить нужно */}
+                       
                         <div className='rectangle-2d'>
                             <span className='span-windows'>
                                 Бесплатная программа
