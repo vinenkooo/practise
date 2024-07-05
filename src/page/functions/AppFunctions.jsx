@@ -12,7 +12,7 @@ import ButtonRazmivayte from '../button/ButtonRazmivayte'
 
 
 
-export default function AppFunctions() {
+export default function AppFunctions({ functionsRef }) {
     const [content, setContent] = useState();
     function handleClick(type){
         console.log('button clicked', type);
@@ -20,7 +20,7 @@ export default function AppFunctions() {
     }
     return (
         <div className='main-container second'>
-          <div className='flex-row-20'>
+          <div className='flex-row-20' ref={functionsRef}>
             <div className='arrow-down'></div>
             <div className='flex-row-31'>
               <div className='span-screenshots'>

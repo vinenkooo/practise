@@ -6,7 +6,7 @@ import ButtonBespl from '../button/ButtonBespl';
 import ButtonNeogr from '../button/ButtonNeogr';
 import ButtonFayli from '../button/ButtonFayli';
 
-export default function AppHowToUse() {
+export default function AppHowToUse({ holoSimulatorRef, howToUseRef }) {
     const [content, setContent] = useState();
     function handleClick(type){
         console.log('button clicked', type);
@@ -17,7 +17,7 @@ export default function AppHowToUse() {
         <div className='main-container third'>
             <div className='flex-row'>
                 <div className='purple-glossy' />
-                <div className='holo-simulator'>
+                <div className='holo-simulator' ref={holoSimulatorRef}>
                     <div className='daily-functions'>
                         <span className='screenshoter'>Screenshoter</span>
                         <span className='empty'> </span>
@@ -41,7 +41,7 @@ export default function AppHowToUse() {
                         <span className='step-by-step-instructions'>Нужно что-то наглядно объяснить? Создавайте удобные, пошаговые инструкции, добавляя комментарии<br />и визуальные отметки в необходимом месте скриншота.<br /><br />Поделиться снимком или видеозаписью можно с помощью ссылки,которая мгновенно появляется в буфере обмена<br /></span>
                         <span className='error-reporting'>Если в процессе работы приложения, сайта или сервиса возникла ошибка, её можно моментально зафиксировать.<br /><br />Отправьте скриншот в техподдержку, где будет видно, в чем именно заключается проблема<br /></span>
                     </div>
-                    <div className='how-to-use-screenshoter'>
+                    <div className='how-to-use-screenshoter' ref={howToUseRef}>
                         <span className='how-to-use'>Как использовать </span>
                         <span className='screenshoter-2'>Screenshoter </span>
                     </div>

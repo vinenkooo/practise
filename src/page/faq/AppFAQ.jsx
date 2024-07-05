@@ -3,7 +3,7 @@ import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
 import CarouselFAQ from './CarouselFAQ';
 
-export default function AppFAQ() {
+export default function AppFAQ({ FAQRef }) {
     const [content, setContent] = useState();
     function handleClick(type){
         console.log('button clicked', type);
@@ -13,7 +13,7 @@ export default function AppFAQ() {
         <div className='main-container fourth'>
             <div className='flex-row-ff'>
                 <div className='holosimulator'>
-                    <span className='faq'>FAQ</span>
+                    <span className='faq' ref={FAQRef}>FAQ</span>
                     <CarouselFAQ />
                     <div className='cone-purple-glossy' />
                     <div className='cylinder-iridescent' />
