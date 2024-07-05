@@ -40,7 +40,7 @@ export default function Main() {
       <AppHeader onAdvantagesClick={scrollToHoloSimulator} onFunctionsClick={scrollToFunctions} onHowToUseClick={scrollToHowToUse} onFAQClick={scrollToFAQ} />
       <AppFunctions functionsRef={functionsRef} />
       <AppHowToUse holoSimulatorRef={holoSimulatorRef} howToUseRef={howToUseRef}/>
-      <AppFAQ FAQRef={FAQRef} />
+      <AppFAQ onAdvantagesClick={scrollToHoloSimulator} onFunctionsClick={scrollToFunctions} onHowToUseClick={scrollToHowToUse} FAQRef={FAQRef} />
     </div>
   );
 }

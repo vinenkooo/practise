@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
 import CarouselFAQ from './CarouselFAQ';
+import Link from '@mui/material/Link';
+import 'react-router-dom';
 
-export default function AppFAQ({ FAQRef }) {
+
+export default function AppFAQ({ FAQRef, onAdvantagesClick, onFunctionsClick, onHowToUseClick }) {
     const [content, setContent] = useState();
     function handleClick(type){
         console.log('button clicked', type);
@@ -37,9 +40,9 @@ export default function AppFAQ({ FAQRef }) {
                     <span className='privacy-policy'>Политика конфиденциальности</span>
                 </div>
                 <div className='frame'>
-                    <span className='features'>Функции</span>
-                    <span className='advantages'>Преимущества</span>
-                    <span className='how-to-use-1f'>Как использовать</span>
+                    <Link to="#" onClick={onFunctionsClick} className='features'>Функции</Link>
+                    <Link to="#" onClick={onAdvantagesClick} className='advantages'>Преимущества</Link>
+                    <Link to="#" onClick={onHowToUseClick} className='how-to-use-1f'>Как использовать</Link>
                 </div>
             </div>
         </div> 
