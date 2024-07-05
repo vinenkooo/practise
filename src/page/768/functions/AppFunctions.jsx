@@ -10,7 +10,7 @@ import ButtonIspolzuite from '../../button/ButtonIspolzuite'
 import ButtonOstavlyate from '../../button/ButtonOstavlyate'
 import ButtonRazmivayte from '../../button/ButtonRazmivayte'
 
-// УДОЛИ ДУБЛИРУЮЩИЙ ХЭДЭРЭ
+
 export default function AppFunctions() {
     const [content, setContent] = useState();
 
@@ -21,34 +21,6 @@ export default function AppFunctions() {
 
     return (
         <div className='main-container second'>
-            {/* <div className='flex-row'>
-                <div className='image'>
-                    <div className='flex-column'>
-                        <span className='together-screenshoter'>Вместе со Screenshoter можно в один клик сделать снимок или записать происходящее на экране ПК, чтобы поделиться<br />с кем угодно</span>
-                        <div className='rectangle'>
-                            <span className='download-free'>Скачать бесплатно</span>
-                        </div>
-                        <div className='fi-rr-arrow-down'>
-                            <div className='vector' />
-                        </div>
-                        <div className='meet-screenshots'>
-                            <span className='meet-screenshots-record'>Встречайте — скриншоты<br />и запись экрана</span>
-                            <span className='two-in-one'> 2 в 1</span>
-                        </div>                       
-                    </div>  
-                </div>
-                <div className='no-more-searching'>
-                    <span className='no-more-searching-3'>Больше не нужно искать две отдельные программы<br />для скриншотов и записи экрана.Screenshoter поможет сделать</span>
-                    <span className='empty'> </span>
-                    <span className='capture-record-share'>снимок экрана, записать видео<br />и поделиться</span>
-                    <span className='empty-4'> </span>
-                    <span className='no-more-searching-5'>им</span>
-                    <span className='empty-6'> </span>
-                    <span className='capture-record-share-7'>с кем угодно</span>
-                    <span className='empty-8'>. </span>
-                    <span className='no-more-searching-9'>Можно выделить весь экран, определенную область или активное окно<br /></span>
-                </div>       
-            </div> */}
             <div className='flex-row-d-4e'>
                 <ButtonMini className='capture-and-record-in-one-click' />
                 <ButtonUdobniy className='convenient-editor' />
@@ -76,7 +48,7 @@ export default function AppFunctions() {
                 </div>  
             </div>            
             <div className='flex-row-f'>
-                {/* <div className='purple-glossy' /> */}
+                
                 <div className='ellipse' />
                 <div className='rectangle-10'>
                     <span className='gif'>gif.</span>
@@ -91,7 +63,7 @@ export default function AppFunctions() {
                 </div>
             </div>            
             <div className='flex-row-eba'>
-                {/* <div className='roundcube-white-glossy' /> */}
+        
                 <div className='ellipse-15'>
                     <div className='rectangle-16'>
                         <span className='gif-17'>gif.</span>
@@ -129,7 +101,7 @@ export default function AppFunctions() {
                     <ButtonOstavlyate className='ostavlyate_white' />
                     <ButtonRazmivayte className='razmivayte_white' />
                     <ButtonSave className='download-free-25'><span >Скачать бесплатно</span></ButtonSave>
-                    {/* <div className='download-free-25' /> */}
+                
                 </div>
             </div>
 

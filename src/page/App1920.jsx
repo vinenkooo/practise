@@ -5,7 +5,6 @@ import AppFunctions from './functions/AppFunctions'
 import AppHowToUse from './howtouse/AppHowToUse'
 import AppFAQ from './faq/AppFAQ'
 
-
 export default function Main() {
   return (
     <div>

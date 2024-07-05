@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../App1920.css';
 import ButtonSave from '../button/ButtonSave';
-import AppRuEng from './AppRuEng'; // Импорт компонента AppRuEng
+import AppRuEng from './AppRuEng'; 
 import Link from '@mui/material/Link';
 import AppFunctions from '../functions/AppFunctions';
 
@@ -35,15 +35,16 @@ export default function AppHeader() {
                     </div>
                     <div className='flex-column-cd'>
                         <div className='frame-26'>
-                            <Link href={AppFunctions} className='features-27' color="inherit">Функции</Link>
-                            <Link href="#advantages" className='advantages-28' variant="body2">Преимущества</Link>
-                            <Link href="#how-to-use" className='how-to-use-29' color="inherit">Как использовать</Link>
-                            <Link href="#faq" className='faq-2a' variant="body2">Частые вопросы</Link>
-                            {/* <div className='languages'> */}
+                        <Link href="#features" className='features-27' color="inherit">Функции</Link>
+                        <Link href="#advantages" className='advantages-28' variant="body2">Преимущества</Link>
+                        <Link href="#how-to-use" className='how-to-use-29' color="inherit">Как использовать</Link>
+                        <Link href="#faq" className='faq-2a' variant="body2">Частые вопросы</Link>
+
+                         
                             <AppRuEng /> 
-                            {/* </div> */}
+                         
                         </div>
-                        {/* <AppRuEng />  куда-то ее вставить нужно */}
+                       
                         <div className='rectangle-2d'>
                             <span className='span-windows'>
                                 Бесплатная программа
